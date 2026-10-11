@@ -1,0 +1,13 @@
+{
+  "cutoff": "2024-06-30",
+  "test_rows": 3568,
+  "training_rows": 20494,
+  "player_mae": 26.376088688761616,
+  "recent_average_mae": 26.208934500024288,
+  "win_test_matches": 144,
+  "win_brier": 0.2589012204375571,
+  "win_log_loss": 0.7110195775052507,
+  "win_accuracy": 0.4027777777777778,
+  "neutral_50_percent_brier": 0.25,
+  "interpretation": "Chronological held-out evaluation, with actual recorded participants. Lower MAE/Brier is better. Experimental baseline: no predictive advantage is assumed. Earlier held-out results may enter later rolling features, never model fitting."
+}

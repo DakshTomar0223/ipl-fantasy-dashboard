@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,55.22090962787951,41,8,25,8,
+f29185a1,Abhishek Sharma,Sunrisers Hyderabad,AR,2025 profile candidate,53.18415260454879,2,2,0,0,
+12b610c2,TM Head,Sunrisers Hyderabad,BAT,2025 profile candidate,52.5,-2,-2,0,0,
+bbd41817,AD Russell,Kolkata Knight Riders,AR,2025 profile candidate,51.40717299578059,79,0,79,0,
+ded9240e,PJ Cummins,Sunrisers Hyderabad,BOWL,2025 profile candidate,49.908772697440384,53,28,25,0,
+85ec8e33,SS Iyer,Kolkata Knight Riders,BAT,2025 profile candidate,47.14269492808479,7,7,0,0,
+235c2bb6,H Klaasen,Sunrisers Hyderabad,WK,2025 profile candidate,46.49882175511358,17,17,0,0,
+a24be938,VR Iyer,Kolkata Knight Riders,AR,2025 profile candidate,44.20966484801247,70,70,0,0,
+aad0c365,Nithish Kumar Reddy,Sunrisers Hyderabad,AR,2025 profile candidate,43.94272813688213,16,16,0,0,
+77255a9e,RA Tripathi,Sunrisers Hyderabad,BAT,2025 profile candidate,43.545682102628284,10,10,0,0,
+0bacade8,Rahmanullah Gurbaz,Kolkata Knight Riders,WK,2025 profile candidate,42.80054495912807,76,52,0,24,

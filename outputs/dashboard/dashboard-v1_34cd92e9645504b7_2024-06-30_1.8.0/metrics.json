@@ -1,0 +1,104 @@
+{
+  "splits": [
+    {
+      "split": "Validation",
+      "training_end_exclusive": "2024-01-01",
+      "training_rows": 18923,
+      "excluded_training_rows": 3678,
+      "evaluation_start": "2024-03-22",
+      "evaluation_end": "2024-05-26",
+      "evaluation_matches": 71,
+      "evaluation_rows": 1715,
+      "win_training_matches": 818,
+      "calibration_matches": 191
+    },
+    {
+      "split": "Held-out test",
+      "training_end_exclusive": "2024-07-01",
+      "training_rows": 20494,
+      "excluded_training_rows": 3822,
+      "evaluation_start": "2025-03-22",
+      "evaluation_end": "2026-05-31",
+      "evaluation_matches": 148,
+      "evaluation_rows": 3568,
+      "win_training_matches": 880,
+      "calibration_matches": 200
+    }
+  ],
+  "metrics": {
+    "Validation": {
+      "points": {
+        "rows": 1715,
+        "mae": 25.96016695349803,
+        "rmse": 31.641864237468752,
+        "r2": -0.0106431649633707,
+        "within_tolerance_percent": 42.74052478134111,
+        "tolerance": 20,
+        "bias": 6.352377028857459
+      },
+      "recent_average": {
+        "rows": 1715,
+        "mae": 25.942392529655883,
+        "rmse": 33.22697544045198,
+        "r2": -0.1144365277067676,
+        "within_tolerance_percent": 46.35568513119534,
+        "tolerance": 20,
+        "bias": 0.11717384765337394
+      },
+      "winner": {
+        "matches": 71,
+        "correct": 37,
+        "accuracy_percent": 52.112676056338024,
+        "brier": 0.24950588482519745,
+        "neutral_brier": 0.25,
+        "log_loss": 0.6921539665136699
+      },
+      "selection": {
+        "matches": 71,
+        "scored_matches": 71,
+        "unavailable_matches": 0,
+        "mean_overlap": 5.943661971830986,
+        "mean_regret": 207.35211267605635,
+        "mean_capture_percent": 68.44714864424057,
+        "subset_matches": 47
+      }
+    },
+    "Held-out test": {
+      "points": {
+        "rows": 3568,
+        "mae": 26.376088688761616,
+        "rmse": 31.918474822292843,
+        "r2": -0.0018596358296856241,
+        "within_tolerance_percent": 40.72309417040359,
+        "tolerance": 20,
+        "bias": 6.8980336759610825
+      },
+      "recent_average": {
+        "rows": 3568,
+        "mae": 26.208934500024288,
+        "rmse": 33.60136285879756,
+        "r2": -0.11028993433574419,
+        "within_tolerance_percent": 47.08520179372198,
+        "tolerance": 20,
+        "bias": 0.3968048670922388
+      },
+      "winner": {
+        "matches": 144,
+        "correct": 58,
+        "accuracy_percent": 40.27777777777778,
+        "brier": 0.2589012204375571,
+        "neutral_brier": 0.25,
+        "log_loss": 0.7110195775052507
+      },
+      "selection": {
+        "matches": 148,
+        "scored_matches": 148,
+        "unavailable_matches": 0,
+        "mean_overlap": 6.506756756756757,
+        "mean_regret": 178.24324324324326,
+        "mean_capture_percent": 70.1208777780233,
+        "subset_matches": 140
+      }
+    }
+  }
+}

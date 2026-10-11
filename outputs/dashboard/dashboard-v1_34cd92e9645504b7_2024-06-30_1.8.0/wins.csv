@@ -1,0 +1,216 @@
+match_id,date,team_a,team_b,target,split,probability_a,predicted_winner,actual_winner
+1422119,2024-03-22,Chennai Super Kings,Royal Challengers Bengaluru,1.0,Validation,0.5441493379181678,Chennai Super Kings,Chennai Super Kings
+1422120,2024-03-23,Delhi Capitals,Punjab Kings,0.0,Validation,0.5619417622856165,Delhi Capitals,Punjab Kings
+1422121,2024-03-23,Kolkata Knight Riders,Sunrisers Hyderabad,1.0,Validation,0.5605252679217417,Kolkata Knight Riders,Kolkata Knight Riders
+1422122,2024-03-24,Lucknow Super Giants,Rajasthan Royals,0.0,Validation,0.5607949489206108,Lucknow Super Giants,Rajasthan Royals
+1422123,2024-03-24,Gujarat Titans,Mumbai Indians,1.0,Validation,0.547574558960351,Gujarat Titans,Gujarat Titans
+1422124,2024-03-25,Punjab Kings,Royal Challengers Bengaluru,0.0,Validation,0.5744074258474947,Punjab Kings,Royal Challengers Bengaluru
+1422125,2024-03-26,Chennai Super Kings,Gujarat Titans,1.0,Validation,0.5652872513178313,Chennai Super Kings,Chennai Super Kings
+1422126,2024-03-27,Mumbai Indians,Sunrisers Hyderabad,0.0,Validation,0.544597427987553,Mumbai Indians,Sunrisers Hyderabad
+1422127,2024-03-28,Delhi Capitals,Rajasthan Royals,0.0,Validation,0.564697747815538,Delhi Capitals,Rajasthan Royals
+1422128,2024-03-29,Kolkata Knight Riders,Royal Challengers Bengaluru,1.0,Validation,0.5441493379181678,Kolkata Knight Riders,Kolkata Knight Riders
+1422129,2024-03-30,Lucknow Super Giants,Punjab Kings,1.0,Validation,0.5607949489206108,Lucknow Super Giants,Lucknow Super Giants
+1422130,2024-03-31,Gujarat Titans,Sunrisers Hyderabad,1.0,Validation,0.5410076163085559,Gujarat Titans,Gujarat Titans
+1422131,2024-03-31,Chennai Super Kings,Delhi Capitals,0.0,Validation,0.5528058975253878,Chennai Super Kings,Delhi Capitals
+1422132,2024-04-01,Mumbai Indians,Rajasthan Royals,0.0,Validation,0.5606744148304564,Mumbai Indians,Rajasthan Royals
+1422133,2024-04-02,Lucknow Super Giants,Royal Challengers Bengaluru,1.0,Validation,0.5558823314856504,Lucknow Super Giants,Lucknow Super Giants
+1422134,2024-04-03,Delhi Capitals,Kolkata Knight Riders,0.0,Validation,0.5594950941512677,Delhi Capitals,Kolkata Knight Riders
+1422135,2024-04-04,Gujarat Titans,Punjab Kings,0.0,Validation,0.5410076163085559,Gujarat Titans,Punjab Kings
+1422136,2024-04-05,Chennai Super Kings,Sunrisers Hyderabad,0.0,Validation,0.5492715171233318,Chennai Super Kings,Sunrisers Hyderabad
+1422137,2024-04-06,Rajasthan Royals,Royal Challengers Bengaluru,1.0,Validation,0.5607733063860442,Rajasthan Royals,Rajasthan Royals
+1422138,2024-04-07,Delhi Capitals,Mumbai Indians,0.0,Validation,0.5693192936660414,Delhi Capitals,Mumbai Indians
+1422139,2024-04-07,Gujarat Titans,Lucknow Super Giants,0.0,Validation,0.5537084787918497,Gujarat Titans,Lucknow Super Giants
+1426260,2024-04-08,Chennai Super Kings,Kolkata Knight Riders,1.0,Validation,0.5639125680136499,Chennai Super Kings,Chennai Super Kings
+1426261,2024-04-09,Punjab Kings,Sunrisers Hyderabad,0.0,Validation,0.5509326135645002,Punjab Kings,Sunrisers Hyderabad
+1426262,2024-04-10,Gujarat Titans,Rajasthan Royals,1.0,Validation,0.5568129042859805,Gujarat Titans,Gujarat Titans
+1426263,2024-04-11,Mumbai Indians,Royal Challengers Bengaluru,1.0,Validation,0.5603825606350413,Mumbai Indians,Mumbai Indians
+1426264,2024-04-12,Delhi Capitals,Lucknow Super Giants,1.0,Validation,0.5596871687043334,Delhi Capitals,Delhi Capitals
+1426265,2024-04-13,Punjab Kings,Rajasthan Royals,0.0,Validation,0.5659624738020264,Punjab Kings,Rajasthan Royals
+1426266,2024-04-14,Kolkata Knight Riders,Lucknow Super Giants,1.0,Validation,0.5617623501023458,Kolkata Knight Riders,Kolkata Knight Riders
+1426267,2024-04-14,Chennai Super Kings,Mumbai Indians,1.0,Validation,0.5660866760578408,Chennai Super Kings,Chennai Super Kings
+1426268,2024-04-15,Royal Challengers Bengaluru,Sunrisers Hyderabad,0.0,Validation,0.5432736042871422,Royal Challengers Bengaluru,Sunrisers Hyderabad
+1426269,2024-04-16,Kolkata Knight Riders,Rajasthan Royals,0.0,Validation,0.5619417622856165,Kolkata Knight Riders,Rajasthan Royals
+1426270,2024-04-17,Delhi Capitals,Gujarat Titans,1.0,Validation,0.5638716047435905,Delhi Capitals,Delhi Capitals
+1426271,2024-04-18,Mumbai Indians,Punjab Kings,1.0,Validation,0.5552251387960152,Mumbai Indians,Mumbai Indians
+1426272,2024-04-19,Chennai Super Kings,Lucknow Super Giants,0.0,Validation,0.5406136913970794,Chennai Super Kings,Lucknow Super Giants
+1426273,2024-04-20,Delhi Capitals,Sunrisers Hyderabad,0.0,Validation,0.5399992789041749,Delhi Capitals,Sunrisers Hyderabad
+1426274,2024-04-21,Kolkata Knight Riders,Royal Challengers Bengaluru,1.0,Validation,0.5606744148304564,Kolkata Knight Riders,Kolkata Knight Riders
+1426275,2024-04-21,Gujarat Titans,Punjab Kings,1.0,Validation,0.5442808214773469,Gujarat Titans,Gujarat Titans
+1426276,2024-04-22,Mumbai Indians,Rajasthan Royals,0.0,Validation,0.5619417622856165,Mumbai Indians,Rajasthan Royals
+1426277,2024-04-23,Chennai Super Kings,Lucknow Super Giants,0.0,Validation,0.5410076163085559,Chennai Super Kings,Lucknow Super Giants
+1426278,2024-04-24,Delhi Capitals,Gujarat Titans,1.0,Validation,0.5617623501023458,Delhi Capitals,Delhi Capitals
+1426279,2024-04-25,Royal Challengers Bengaluru,Sunrisers Hyderabad,1.0,Validation,0.5432736042871422,Royal Challengers Bengaluru,Royal Challengers Bengaluru
+1426280,2024-04-26,Kolkata Knight Riders,Punjab Kings,0.0,Validation,0.5571812899283053,Kolkata Knight Riders,Punjab Kings
+1426281,2024-04-27,Delhi Capitals,Mumbai Indians,1.0,Validation,0.5664958496259196,Delhi Capitals,Delhi Capitals
+1426282,2024-04-27,Lucknow Super Giants,Rajasthan Royals,0.0,Validation,0.5562739099167837,Lucknow Super Giants,Rajasthan Royals
+1426283,2024-04-28,Gujarat Titans,Royal Challengers Bengaluru,0.0,Validation,0.5505896856757733,Gujarat Titans,Royal Challengers Bengaluru
+1426284,2024-04-28,Chennai Super Kings,Sunrisers Hyderabad,1.0,Validation,0.5405417138970255,Chennai Super Kings,Chennai Super Kings
+1426285,2024-04-29,Delhi Capitals,Kolkata Knight Riders,0.0,Validation,0.5693192936660414,Delhi Capitals,Kolkata Knight Riders
+1426286,2024-04-30,Lucknow Super Giants,Mumbai Indians,1.0,Validation,0.5568129042859805,Lucknow Super Giants,Lucknow Super Giants
+1426287,2024-05-01,Chennai Super Kings,Punjab Kings,0.0,Validation,0.5543017551854078,Chennai Super Kings,Punjab Kings
+1426288,2024-05-02,Rajasthan Royals,Sunrisers Hyderabad,0.0,Validation,0.5432736042871422,Rajasthan Royals,Sunrisers Hyderabad
+1426289,2024-05-03,Kolkata Knight Riders,Mumbai Indians,1.0,Validation,0.564697747815538,Kolkata Knight Riders,Kolkata Knight Riders
+1426290,2024-05-04,Gujarat Titans,Royal Challengers Bengaluru,0.0,Validation,0.5607423000178043,Gujarat Titans,Royal Challengers Bengaluru
+1426291,2024-05-05,Chennai Super Kings,Punjab Kings,1.0,Validation,0.5552251387960152,Chennai Super Kings,Chennai Super Kings
+1426292,2024-05-05,Kolkata Knight Riders,Lucknow Super Giants,1.0,Validation,0.5636525422791384,Kolkata Knight Riders,Kolkata Knight Riders
+1426293,2024-05-06,Mumbai Indians,Sunrisers Hyderabad,1.0,Validation,0.5598226142533351,Mumbai Indians,Mumbai Indians
+1426294,2024-05-07,Delhi Capitals,Rajasthan Royals,1.0,Validation,0.5655727681571185,Delhi Capitals,Delhi Capitals
+1426295,2024-05-08,Lucknow Super Giants,Sunrisers Hyderabad,0.0,Validation,0.5471569391446213,Lucknow Super Giants,Sunrisers Hyderabad
+1426296,2024-05-09,Punjab Kings,Royal Challengers Bengaluru,0.0,Validation,0.5618523479595561,Punjab Kings,Royal Challengers Bengaluru
+1426297,2024-05-10,Chennai Super Kings,Gujarat Titans,0.0,Validation,0.5454628491289332,Chennai Super Kings,Gujarat Titans
+1426298,2024-05-11,Kolkata Knight Riders,Mumbai Indians,1.0,Validation,0.5649185438638227,Kolkata Knight Riders,Kolkata Knight Riders
+1426299,2024-05-12,Chennai Super Kings,Rajasthan Royals,1.0,Validation,0.5624680190185445,Chennai Super Kings,Chennai Super Kings
+1426300,2024-05-12,Delhi Capitals,Royal Challengers Bengaluru,0.0,Validation,0.5618523479595561,Delhi Capitals,Royal Challengers Bengaluru
+1426302,2024-05-14,Delhi Capitals,Lucknow Super Giants,1.0,Validation,0.5630290051157864,Delhi Capitals,Delhi Capitals
+1426303,2024-05-15,Punjab Kings,Rajasthan Royals,1.0,Validation,0.564697747815538,Punjab Kings,Punjab Kings
+1426305,2024-05-17,Lucknow Super Giants,Mumbai Indians,1.0,Validation,0.5547328626402636,Lucknow Super Giants,Lucknow Super Giants
+1426306,2024-05-18,Chennai Super Kings,Royal Challengers Bengaluru,0.0,Validation,0.5576807028616854,Chennai Super Kings,Royal Challengers Bengaluru
+1426307,2024-05-19,Punjab Kings,Sunrisers Hyderabad,0.0,Validation,0.5574543289335376,Punjab Kings,Sunrisers Hyderabad
+1426309,2024-05-21,Kolkata Knight Riders,Sunrisers Hyderabad,1.0,Validation,0.5609876190494648,Kolkata Knight Riders,Kolkata Knight Riders
+1426310,2024-05-22,Rajasthan Royals,Royal Challengers Bengaluru,1.0,Validation,0.5571419244853987,Rajasthan Royals,Rajasthan Royals
+1426311,2024-05-24,Rajasthan Royals,Sunrisers Hyderabad,0.0,Validation,0.550235808364551,Rajasthan Royals,Sunrisers Hyderabad
+1426312,2024-05-26,Kolkata Knight Riders,Sunrisers Hyderabad,1.0,Validation,0.5597941253412789,Kolkata Knight Riders,Kolkata Knight Riders
+1473438,2025-03-22,Kolkata Knight Riders,Royal Challengers Bengaluru,0.0,Held-out test,0.5533254284313472,Kolkata Knight Riders,Royal Challengers Bengaluru
+1473439,2025-03-23,Rajasthan Royals,Sunrisers Hyderabad,0.0,Held-out test,0.5539737089022093,Rajasthan Royals,Sunrisers Hyderabad
+1473440,2025-03-23,Chennai Super Kings,Mumbai Indians,1.0,Held-out test,0.545806441398592,Chennai Super Kings,Chennai Super Kings
+1473441,2025-03-24,Delhi Capitals,Lucknow Super Giants,1.0,Held-out test,0.515264265830601,Delhi Capitals,Delhi Capitals
+1473442,2025-03-25,Gujarat Titans,Punjab Kings,0.0,Held-out test,0.5440823227960144,Gujarat Titans,Punjab Kings
+1473443,2025-03-26,Kolkata Knight Riders,Rajasthan Royals,1.0,Held-out test,0.5418700107187516,Kolkata Knight Riders,Kolkata Knight Riders
+1473444,2025-03-27,Lucknow Super Giants,Sunrisers Hyderabad,1.0,Held-out test,0.5314081424765035,Lucknow Super Giants,Lucknow Super Giants
+1473445,2025-03-28,Chennai Super Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.577305977851944,Chennai Super Kings,Royal Challengers Bengaluru
+1473446,2025-03-29,Gujarat Titans,Mumbai Indians,1.0,Held-out test,0.5497505249159039,Gujarat Titans,Gujarat Titans
+1473447,2025-03-30,Delhi Capitals,Sunrisers Hyderabad,1.0,Held-out test,0.5630448240668594,Delhi Capitals,Delhi Capitals
+1473448,2025-03-30,Chennai Super Kings,Rajasthan Royals,0.0,Held-out test,0.5353369390634655,Chennai Super Kings,Rajasthan Royals
+1473449,2025-03-31,Kolkata Knight Riders,Mumbai Indians,0.0,Held-out test,0.5327442064331235,Kolkata Knight Riders,Mumbai Indians
+1473450,2025-04-01,Lucknow Super Giants,Punjab Kings,0.0,Held-out test,0.542834783410006,Lucknow Super Giants,Punjab Kings
+1473451,2025-04-02,Gujarat Titans,Royal Challengers Bengaluru,1.0,Held-out test,0.5453369763860748,Gujarat Titans,Gujarat Titans
+1473452,2025-04-03,Kolkata Knight Riders,Sunrisers Hyderabad,1.0,Held-out test,0.5520583463719473,Kolkata Knight Riders,Kolkata Knight Riders
+1473453,2025-04-04,Lucknow Super Giants,Mumbai Indians,1.0,Held-out test,0.5472988066646899,Lucknow Super Giants,Lucknow Super Giants
+1473454,2025-04-05,Chennai Super Kings,Delhi Capitals,0.0,Held-out test,0.5658594188821325,Chennai Super Kings,Delhi Capitals
+1473455,2025-04-05,Punjab Kings,Rajasthan Royals,0.0,Held-out test,0.5298374169947218,Punjab Kings,Rajasthan Royals
+1473457,2025-04-06,Gujarat Titans,Sunrisers Hyderabad,1.0,Held-out test,0.5667824037116544,Gujarat Titans,Gujarat Titans
+1473458,2025-04-07,Mumbai Indians,Royal Challengers Bengaluru,0.0,Held-out test,0.5383714563123115,Mumbai Indians,Royal Challengers Bengaluru
+1473456,2025-04-08,Kolkata Knight Riders,Lucknow Super Giants,0.0,Held-out test,0.5430328465373099,Kolkata Knight Riders,Lucknow Super Giants
+1473459,2025-04-08,Chennai Super Kings,Punjab Kings,0.0,Held-out test,0.5630847118028374,Chennai Super Kings,Punjab Kings
+1473460,2025-04-09,Gujarat Titans,Rajasthan Royals,1.0,Held-out test,0.5379543307648524,Gujarat Titans,Gujarat Titans
+1473461,2025-04-10,Delhi Capitals,Royal Challengers Bengaluru,1.0,Held-out test,0.532609107751194,Delhi Capitals,Delhi Capitals
+1473462,2025-04-11,Chennai Super Kings,Kolkata Knight Riders,0.0,Held-out test,0.5251030429166196,Chennai Super Kings,Kolkata Knight Riders
+1473463,2025-04-12,Gujarat Titans,Lucknow Super Giants,0.0,Held-out test,0.5391201350011604,Gujarat Titans,Lucknow Super Giants
+1473464,2025-04-12,Punjab Kings,Sunrisers Hyderabad,0.0,Held-out test,0.5574928725555909,Punjab Kings,Sunrisers Hyderabad
+1473465,2025-04-13,Rajasthan Royals,Royal Challengers Bengaluru,0.0,Held-out test,0.5392127961565694,Rajasthan Royals,Royal Challengers Bengaluru
+1473466,2025-04-13,Delhi Capitals,Mumbai Indians,0.0,Held-out test,0.5338562913591727,Delhi Capitals,Mumbai Indians
+1473467,2025-04-14,Chennai Super Kings,Lucknow Super Giants,1.0,Held-out test,0.5396428855283525,Chennai Super Kings,Chennai Super Kings
+1473468,2025-04-15,Kolkata Knight Riders,Punjab Kings,0.0,Held-out test,0.5503337356426351,Kolkata Knight Riders,Punjab Kings
+1473469,2025-04-16,Delhi Capitals,Rajasthan Royals,1.0,Held-out test,0.5330398697375196,Delhi Capitals,Delhi Capitals
+1473470,2025-04-17,Mumbai Indians,Sunrisers Hyderabad,1.0,Held-out test,0.5144518244996514,Mumbai Indians,Mumbai Indians
+1473471,2025-04-18,Punjab Kings,Royal Challengers Bengaluru,1.0,Held-out test,0.5281011188030431,Punjab Kings,Punjab Kings
+1473472,2025-04-19,Delhi Capitals,Gujarat Titans,0.0,Held-out test,0.5227357207505634,Delhi Capitals,Gujarat Titans
+1473473,2025-04-19,Lucknow Super Giants,Rajasthan Royals,1.0,Held-out test,0.5437077798209268,Lucknow Super Giants,Lucknow Super Giants
+1473474,2025-04-20,Punjab Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.5313357925279616,Punjab Kings,Royal Challengers Bengaluru
+1473475,2025-04-20,Chennai Super Kings,Mumbai Indians,0.0,Held-out test,0.5069541038383569,Chennai Super Kings,Mumbai Indians
+1473476,2025-04-21,Gujarat Titans,Kolkata Knight Riders,1.0,Held-out test,0.542834783410006,Gujarat Titans,Gujarat Titans
+1473477,2025-04-22,Delhi Capitals,Lucknow Super Giants,1.0,Held-out test,0.5227357207505634,Delhi Capitals,Delhi Capitals
+1473478,2025-04-23,Mumbai Indians,Sunrisers Hyderabad,1.0,Held-out test,0.5325283133016212,Mumbai Indians,Mumbai Indians
+1473479,2025-04-24,Rajasthan Royals,Royal Challengers Bengaluru,0.0,Held-out test,0.5281011188030431,Rajasthan Royals,Royal Challengers Bengaluru
+1473480,2025-04-25,Chennai Super Kings,Sunrisers Hyderabad,0.0,Held-out test,0.5440049660684779,Chennai Super Kings,Sunrisers Hyderabad
+1473482,2025-04-27,Lucknow Super Giants,Mumbai Indians,0.0,Held-out test,0.5397638922702778,Lucknow Super Giants,Mumbai Indians
+1473483,2025-04-27,Delhi Capitals,Royal Challengers Bengaluru,0.0,Held-out test,0.5281011188030431,Delhi Capitals,Royal Challengers Bengaluru
+1473484,2025-04-28,Gujarat Titans,Rajasthan Royals,0.0,Held-out test,0.5444705983282303,Gujarat Titans,Rajasthan Royals
+1473485,2025-04-29,Delhi Capitals,Kolkata Knight Riders,0.0,Held-out test,0.5263950319989248,Delhi Capitals,Kolkata Knight Riders
+1473486,2025-04-30,Chennai Super Kings,Punjab Kings,0.0,Held-out test,0.5163274800914269,Chennai Super Kings,Punjab Kings
+1473487,2025-05-01,Mumbai Indians,Rajasthan Royals,1.0,Held-out test,0.5382581506866749,Mumbai Indians,Mumbai Indians
+1473488,2025-05-02,Gujarat Titans,Sunrisers Hyderabad,1.0,Held-out test,0.5669759672266408,Gujarat Titans,Gujarat Titans
+1473489,2025-05-03,Chennai Super Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.5431179669724134,Chennai Super Kings,Royal Challengers Bengaluru
+1473490,2025-05-04,Kolkata Knight Riders,Rajasthan Royals,1.0,Held-out test,0.566168263294092,Kolkata Knight Riders,Kolkata Knight Riders
+1473491,2025-05-04,Lucknow Super Giants,Punjab Kings,0.0,Held-out test,0.5317345982356994,Lucknow Super Giants,Punjab Kings
+1473493,2025-05-06,Gujarat Titans,Mumbai Indians,1.0,Held-out test,0.525911447798084,Gujarat Titans,Gujarat Titans
+1473494,2025-05-07,Chennai Super Kings,Kolkata Knight Riders,1.0,Held-out test,0.5281011188030431,Chennai Super Kings,Chennai Super Kings
+1473497,2025-05-18,Punjab Kings,Rajasthan Royals,1.0,Held-out test,0.5353768987912593,Punjab Kings,Punjab Kings
+1473498,2025-05-18,Delhi Capitals,Gujarat Titans,0.0,Held-out test,0.4923312417526052,Gujarat Titans,Gujarat Titans
+1473499,2025-05-19,Lucknow Super Giants,Sunrisers Hyderabad,0.0,Held-out test,0.5644442979973608,Lucknow Super Giants,Sunrisers Hyderabad
+1473500,2025-05-20,Chennai Super Kings,Rajasthan Royals,0.0,Held-out test,0.5636419082383605,Chennai Super Kings,Rajasthan Royals
+1473501,2025-05-21,Delhi Capitals,Mumbai Indians,0.0,Held-out test,0.5716453203153427,Delhi Capitals,Mumbai Indians
+1473502,2025-05-22,Gujarat Titans,Lucknow Super Giants,0.0,Held-out test,0.5418966289841004,Gujarat Titans,Lucknow Super Giants
+1473503,2025-05-23,Royal Challengers Bengaluru,Sunrisers Hyderabad,0.0,Held-out test,0.5593618165605795,Royal Challengers Bengaluru,Sunrisers Hyderabad
+1485779,2025-05-24,Delhi Capitals,Punjab Kings,1.0,Held-out test,0.5194498918508328,Delhi Capitals,Delhi Capitals
+1473504,2025-05-25,Chennai Super Kings,Gujarat Titans,1.0,Held-out test,0.5341617566930901,Chennai Super Kings,Chennai Super Kings
+1473505,2025-05-25,Kolkata Knight Riders,Sunrisers Hyderabad,0.0,Held-out test,0.5646602520618752,Kolkata Knight Riders,Sunrisers Hyderabad
+1473506,2025-05-26,Mumbai Indians,Punjab Kings,0.0,Held-out test,0.5253141262230412,Mumbai Indians,Punjab Kings
+1473507,2025-05-27,Lucknow Super Giants,Royal Challengers Bengaluru,0.0,Held-out test,0.5584478761110474,Lucknow Super Giants,Royal Challengers Bengaluru
+1473508,2025-05-29,Punjab Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.53638941907899,Punjab Kings,Royal Challengers Bengaluru
+1473509,2025-05-30,Gujarat Titans,Mumbai Indians,0.0,Held-out test,0.5316738552143897,Gujarat Titans,Mumbai Indians
+1473510,2025-06-01,Mumbai Indians,Punjab Kings,0.0,Held-out test,0.5419086609874393,Mumbai Indians,Punjab Kings
+1473511,2025-06-03,Punjab Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.5305116405959159,Punjab Kings,Royal Challengers Bengaluru
+1527674,2026-03-28,Royal Challengers Bengaluru,Sunrisers Hyderabad,1.0,Held-out test,0.5477052904316555,Royal Challengers Bengaluru,Royal Challengers Bengaluru
+1527675,2026-03-29,Kolkata Knight Riders,Mumbai Indians,0.0,Held-out test,0.5356887325210922,Kolkata Knight Riders,Mumbai Indians
+1527676,2026-03-30,Chennai Super Kings,Rajasthan Royals,0.0,Held-out test,0.5069541038383569,Chennai Super Kings,Rajasthan Royals
+1527677,2026-03-31,Gujarat Titans,Punjab Kings,0.0,Held-out test,0.5596722295178695,Gujarat Titans,Punjab Kings
+1527678,2026-04-01,Delhi Capitals,Lucknow Super Giants,1.0,Held-out test,0.5337797252565623,Delhi Capitals,Delhi Capitals
+1527679,2026-04-02,Kolkata Knight Riders,Sunrisers Hyderabad,0.0,Held-out test,0.5460784419125568,Kolkata Knight Riders,Sunrisers Hyderabad
+1527680,2026-04-03,Chennai Super Kings,Punjab Kings,0.0,Held-out test,0.5355808180642785,Chennai Super Kings,Punjab Kings
+1527681,2026-04-04,Delhi Capitals,Mumbai Indians,1.0,Held-out test,0.49077014107977646,Mumbai Indians,Delhi Capitals
+1527682,2026-04-04,Gujarat Titans,Rajasthan Royals,0.0,Held-out test,0.507925633559602,Gujarat Titans,Rajasthan Royals
+1527683,2026-04-05,Lucknow Super Giants,Sunrisers Hyderabad,1.0,Held-out test,0.5601132178918534,Lucknow Super Giants,Lucknow Super Giants
+1527684,2026-04-05,Chennai Super Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.5202793690149878,Chennai Super Kings,Royal Challengers Bengaluru
+1527686,2026-04-07,Mumbai Indians,Rajasthan Royals,0.0,Held-out test,0.5414312244027955,Mumbai Indians,Rajasthan Royals
+1527687,2026-04-08,Delhi Capitals,Gujarat Titans,0.0,Held-out test,0.5290701504272388,Delhi Capitals,Gujarat Titans
+1527688,2026-04-09,Kolkata Knight Riders,Lucknow Super Giants,0.0,Held-out test,0.507925633559602,Kolkata Knight Riders,Lucknow Super Giants
+1527689,2026-04-10,Rajasthan Royals,Royal Challengers Bengaluru,1.0,Held-out test,0.5328943448403194,Rajasthan Royals,Rajasthan Royals
+1527690,2026-04-11,Punjab Kings,Sunrisers Hyderabad,1.0,Held-out test,0.512214728893548,Punjab Kings,Punjab Kings
+1527691,2026-04-11,Chennai Super Kings,Delhi Capitals,1.0,Held-out test,0.5281011188030431,Chennai Super Kings,Chennai Super Kings
+1527692,2026-04-12,Gujarat Titans,Lucknow Super Giants,1.0,Held-out test,0.5358073213909109,Gujarat Titans,Gujarat Titans
+1527693,2026-04-12,Mumbai Indians,Royal Challengers Bengaluru,0.0,Held-out test,0.5414312244027955,Mumbai Indians,Royal Challengers Bengaluru
+1529264,2026-04-13,Rajasthan Royals,Sunrisers Hyderabad,0.0,Held-out test,0.5715024204573328,Rajasthan Royals,Sunrisers Hyderabad
+1529265,2026-04-14,Chennai Super Kings,Kolkata Knight Riders,1.0,Held-out test,0.5341162219485969,Chennai Super Kings,Chennai Super Kings
+1529266,2026-04-15,Lucknow Super Giants,Royal Challengers Bengaluru,0.0,Held-out test,0.5212494379737347,Lucknow Super Giants,Royal Challengers Bengaluru
+1529267,2026-04-16,Mumbai Indians,Punjab Kings,0.0,Held-out test,0.5392908657948069,Mumbai Indians,Punjab Kings
+1529268,2026-04-17,Gujarat Titans,Kolkata Knight Riders,1.0,Held-out test,0.5450678437359391,Gujarat Titans,Gujarat Titans
+1529269,2026-04-18,Delhi Capitals,Royal Challengers Bengaluru,1.0,Held-out test,0.5070296651991342,Delhi Capitals,Delhi Capitals
+1529270,2026-04-18,Chennai Super Kings,Sunrisers Hyderabad,0.0,Held-out test,0.5122597004450193,Chennai Super Kings,Sunrisers Hyderabad
+1529271,2026-04-19,Kolkata Knight Riders,Rajasthan Royals,1.0,Held-out test,0.5415378129391593,Kolkata Knight Riders,Kolkata Knight Riders
+1529272,2026-04-19,Lucknow Super Giants,Punjab Kings,0.0,Held-out test,0.5379543307648524,Lucknow Super Giants,Punjab Kings
+1529273,2026-04-20,Gujarat Titans,Mumbai Indians,0.0,Held-out test,0.5450678437359391,Gujarat Titans,Mumbai Indians
+1529274,2026-04-21,Delhi Capitals,Sunrisers Hyderabad,0.0,Held-out test,0.5470328488239351,Delhi Capitals,Sunrisers Hyderabad
+1529275,2026-04-22,Lucknow Super Giants,Rajasthan Royals,0.0,Held-out test,0.5316336121477149,Lucknow Super Giants,Rajasthan Royals
+1529276,2026-04-23,Chennai Super Kings,Mumbai Indians,1.0,Held-out test,0.5330496772637002,Chennai Super Kings,Chennai Super Kings
+1529277,2026-04-24,Gujarat Titans,Royal Challengers Bengaluru,0.0,Held-out test,0.536523307988553,Gujarat Titans,Royal Challengers Bengaluru
+1529278,2026-04-25,Delhi Capitals,Punjab Kings,0.0,Held-out test,0.5372519002606031,Delhi Capitals,Punjab Kings
+1529279,2026-04-25,Rajasthan Royals,Sunrisers Hyderabad,0.0,Held-out test,0.5470417604154759,Rajasthan Royals,Sunrisers Hyderabad
+1529280,2026-04-26,Chennai Super Kings,Gujarat Titans,0.0,Held-out test,0.5301377725766033,Chennai Super Kings,Gujarat Titans
+1529281,2026-04-26,Kolkata Knight Riders,Lucknow Super Giants,1.0,Held-out test,0.5724081694683224,Kolkata Knight Riders,Kolkata Knight Riders
+1529282,2026-04-27,Delhi Capitals,Royal Challengers Bengaluru,0.0,Held-out test,0.5263950319989248,Delhi Capitals,Royal Challengers Bengaluru
+1529283,2026-04-28,Punjab Kings,Rajasthan Royals,0.0,Held-out test,0.5540419975529725,Punjab Kings,Rajasthan Royals
+1529284,2026-04-29,Mumbai Indians,Sunrisers Hyderabad,0.0,Held-out test,0.5441610371824374,Mumbai Indians,Sunrisers Hyderabad
+1529285,2026-04-30,Gujarat Titans,Royal Challengers Bengaluru,1.0,Held-out test,0.5307473307430682,Gujarat Titans,Gujarat Titans
+1529286,2026-05-01,Delhi Capitals,Rajasthan Royals,1.0,Held-out test,0.5505761044751073,Delhi Capitals,Delhi Capitals
+1529287,2026-05-02,Chennai Super Kings,Mumbai Indians,1.0,Held-out test,0.5389016962671958,Chennai Super Kings,Chennai Super Kings
+1529288,2026-05-03,Kolkata Knight Riders,Sunrisers Hyderabad,1.0,Held-out test,0.5558457232669695,Kolkata Knight Riders,Kolkata Knight Riders
+1529289,2026-05-03,Gujarat Titans,Punjab Kings,1.0,Held-out test,0.5505570183400048,Gujarat Titans,Gujarat Titans
+1529290,2026-05-04,Lucknow Super Giants,Mumbai Indians,0.0,Held-out test,0.5078719631021279,Lucknow Super Giants,Mumbai Indians
+1529291,2026-05-05,Chennai Super Kings,Delhi Capitals,1.0,Held-out test,0.5254375455693586,Chennai Super Kings,Chennai Super Kings
+1529292,2026-05-06,Punjab Kings,Sunrisers Hyderabad,0.0,Held-out test,0.5540047186041859,Punjab Kings,Sunrisers Hyderabad
+1529293,2026-05-07,Lucknow Super Giants,Royal Challengers Bengaluru,1.0,Held-out test,0.5218864599185083,Lucknow Super Giants,Lucknow Super Giants
+1529294,2026-05-08,Delhi Capitals,Kolkata Knight Riders,0.0,Held-out test,0.507460464742317,Delhi Capitals,Kolkata Knight Riders
+1529295,2026-05-09,Gujarat Titans,Rajasthan Royals,1.0,Held-out test,0.5536526478431139,Gujarat Titans,Gujarat Titans
+1529296,2026-05-10,Chennai Super Kings,Lucknow Super Giants,1.0,Held-out test,0.5379543307648524,Chennai Super Kings,Chennai Super Kings
+1529297,2026-05-10,Mumbai Indians,Royal Challengers Bengaluru,0.0,Held-out test,0.5281011188030431,Mumbai Indians,Royal Challengers Bengaluru
+1529298,2026-05-11,Delhi Capitals,Punjab Kings,1.0,Held-out test,0.4948470140480659,Punjab Kings,Delhi Capitals
+1529299,2026-05-12,Gujarat Titans,Sunrisers Hyderabad,1.0,Held-out test,0.5564703201125348,Gujarat Titans,Gujarat Titans
+1529300,2026-05-13,Kolkata Knight Riders,Royal Challengers Bengaluru,0.0,Held-out test,0.520661474224569,Kolkata Knight Riders,Royal Challengers Bengaluru
+1529301,2026-05-14,Mumbai Indians,Punjab Kings,1.0,Held-out test,0.553702911722049,Mumbai Indians,Mumbai Indians
+1529302,2026-05-15,Chennai Super Kings,Lucknow Super Giants,0.0,Held-out test,0.5410644057579865,Chennai Super Kings,Lucknow Super Giants
+1529303,2026-05-16,Gujarat Titans,Kolkata Knight Riders,0.0,Held-out test,0.5365776337454515,Gujarat Titans,Kolkata Knight Riders
+1529304,2026-05-17,Punjab Kings,Royal Challengers Bengaluru,0.0,Held-out test,0.5281011188030431,Punjab Kings,Royal Challengers Bengaluru
+1529305,2026-05-17,Delhi Capitals,Rajasthan Royals,1.0,Held-out test,0.5401047841931189,Delhi Capitals,Delhi Capitals
+1529306,2026-05-18,Chennai Super Kings,Sunrisers Hyderabad,0.0,Held-out test,0.536523307988553,Chennai Super Kings,Sunrisers Hyderabad
+1529307,2026-05-19,Lucknow Super Giants,Rajasthan Royals,0.0,Held-out test,0.5659235122636204,Lucknow Super Giants,Rajasthan Royals
+1529308,2026-05-20,Kolkata Knight Riders,Mumbai Indians,1.0,Held-out test,0.5313357925279616,Kolkata Knight Riders,Kolkata Knight Riders
+1529309,2026-05-21,Chennai Super Kings,Gujarat Titans,0.0,Held-out test,0.5196525748689819,Chennai Super Kings,Gujarat Titans
+1529310,2026-05-22,Royal Challengers Bengaluru,Sunrisers Hyderabad,0.0,Held-out test,0.5723443100229806,Royal Challengers Bengaluru,Sunrisers Hyderabad
+1529311,2026-05-23,Lucknow Super Giants,Punjab Kings,0.0,Held-out test,0.5410644057579865,Lucknow Super Giants,Punjab Kings
+1529312,2026-05-24,Mumbai Indians,Rajasthan Royals,0.0,Held-out test,0.5723443100229806,Mumbai Indians,Rajasthan Royals
+1529313,2026-05-24,Delhi Capitals,Kolkata Knight Riders,1.0,Held-out test,0.5311902036387895,Delhi Capitals,Delhi Capitals
+1535462,2026-05-26,Gujarat Titans,Royal Challengers Bengaluru,0.0,Held-out test,0.5376431097716763,Gujarat Titans,Royal Challengers Bengaluru
+1535463,2026-05-27,Rajasthan Royals,Sunrisers Hyderabad,1.0,Held-out test,0.5382181103384359,Rajasthan Royals,Rajasthan Royals
+1535464,2026-05-29,Gujarat Titans,Rajasthan Royals,1.0,Held-out test,0.5782542074762053,Gujarat Titans,Gujarat Titans
+1535465,2026-05-31,Gujarat Titans,Royal Challengers Bengaluru,0.0,Held-out test,0.536523307988553,Gujarat Titans,Royal Challengers Bengaluru

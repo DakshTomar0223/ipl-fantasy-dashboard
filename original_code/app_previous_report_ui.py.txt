@@ -1,0 +1,120 @@
+"""Streamlit frontend. All selection and ML logic lives in src/ui_backend.py."""
+import json
+import pandas as pd
+import streamlit as st
+from src.ui_backend import FantasyService, ROOT
+
+st.set_page_config(page_title="IPL Fantasy Match Lab", page_icon="🏏", layout="wide")
+
+
+@st.cache_resource
+def get_service(workbook_mtime, overrides_mtime):
+    return FantasyService()
+
+
+def show_team(players):
+    if not players:
+        st.info("A valid XI is unavailable for this match. See the report notes.")
+        return
+    frame = pd.DataFrame(players)
+    columns = ["player", "team", "role", "predicted_points", "total_fantasy_points"]
+    st.dataframe(frame[columns].rename(columns={"player": "Player", "team": "Team", "role": "Role",
+                 "predicted_points": "Predicted points", "total_fantasy_points": "Actual Excel points"}),
+                 hide_index=True, width="stretch")
+
+
+def main():
+    st.title("IPL Fantasy Match Lab")
+    st.caption("Compare an AdaBoost-selected XI with the best XI from the recorded match results.")
+    workbook = ROOT / "data/input/IPL_Fantasy_Dataset.xlsx"
+    overrides = ROOT / "data/input/role_overrides.csv"
+    with st.spinner("Loading historical features; the first run takes longer..."):
+        service = get_service(workbook.stat().st_mtime_ns, overrides.stat().st_mtime_ns if overrides.exists() else 0)
+    date_text = st.text_input("Match date (DD-MM-YYYY)", service.data.date.max().strftime("%d-%m-%Y"))
+    nearest = st.checkbox("Use the nearest available date if there is no exact match", value=True)
+    try:
+        choices = service.list_matches(date_text, nearest)
+    except ValueError:
+        st.warning("Enter a date such as 25-05-2025.")
+        return
+    if not choices:
+        st.info("No match found on that date.")
+        return
+    labels = {m["match_id"]: f"{pd.Timestamp(m['date']).strftime('%d-%m-%Y')} · {' vs '.join(m['teams'])} · {m['match_id']}" for m in choices}
+    selected = st.selectbox("Match (doubleheaders are separate)", list(labels), format_func=labels.get)
+    if st.button("Generate match report", type="primary"):
+        with st.spinner("Fitting earlier-history models, selecting both XIs and creating graphs..."):
+            report = service.get_match_report(match_id=selected, date=date_text, nearest=nearest)
+        st.session_state["report"] = report
+    report = st.session_state.get("report")
+    if not report or report["match"]["match_id"] != selected or report["match"]["requested_date"] != pd.to_datetime(date_text, dayfirst=True).strftime("%Y-%m-%d"):
+        st.info("Choose a match and generate its report.")
+        return
+    match = report["match"]
+    st.subheader(" vs ".join(match["teams"]))
+    st.caption(f"{match['date']} · {match['venue']} · Model: {report['model']['algorithm']}")
+    st.caption(f"Recorded winner: {match['actual_winner'] or match['actual_result'] or 'Unavailable'}")
+    if match["nearest_date_distance_days"]:
+        st.info(f"Using the nearest match date, {match['date']} ({match['nearest_date_distance_days']} days away).")
+    if report["status"] != "ok":
+        st.warning("This report has an incomplete player pool or insufficient history. See the notes below.")
+    win = report["team_win_probabilities"]
+    st.subheader("Estimated match win chances")
+    if win["probabilities"]:
+        for col, item in zip(st.columns(2), win["probabilities"]):
+            col.metric(item["team"], f"{item['win_percent']:.2f}%")
+        st.caption(win["interpretation"])
+    else:
+        st.info(win.get("reason", "Not enough earlier history."))
+    with st.expander("Earlier team form and head-to-head evidence"):
+        st.json(win.get("evidence", {}))
+    with st.expander("Held-out model performance"):
+        metrics = service.evaluate()
+        st.json(metrics)
+    if metrics.get("win_brier", 0) >= metrics.get("neutral_50_percent_brier", float("inf")):
+        st.warning("Experimental win estimates: this model has not beaten a 50/50 probability baseline on the held-out matches. See model performance above.")
+    left, right = st.columns(2)
+    with left:
+        st.subheader("Predicted XI")
+        show_team(report["predicted_team"])
+    with right:
+        st.subheader("Actual best XI from Excel")
+        show_team(report["actual_team"])
+    st.caption(report["actual_team_definition"])
+    if report["comparison"]:
+        c = report["comparison"]
+        a, b, d, e = st.columns(4)
+        a.metric("Predicted XI: expected points", f"{c['predicted_team_expected_points']:.1f}")
+        b.metric("Predicted XI: actual points", f"{c['predicted_team_actual_points']:.0f}")
+        d.metric("Actual best XI: points", f"{c['actual_best_team_points']:.0f}")
+        e.metric("Shared players", f"{c['overlap']}/11")
+    st.subheader("Why these 11 players?")
+    for chart in report["charts"].values():
+        st.image(str(ROOT / chart), width="stretch")
+    for player in report["player_explanations"]:
+        with st.expander(f"{player['player']} · {player['role']} · {player['specialty_from_previous_matches']}"):
+            a, b, c = st.columns(3)
+            def number(x):
+                return "No history" if x is None else f"{x:.1f}"
+            a.metric("Previous appearance points", number(player["last_fantasy_points"]))
+            b.metric("Previous 5 average", number(player["last_5_average"]))
+            c.metric("Previous 10 average", number(player["last_10_average"]))
+            st.caption(f"Earlier appearances: {player['previous_matches']}; last-five sample: {player['last_5_matches_available']}")
+            st.write(f"Previous points against this opponent: {number(player['previous_opponent_points'])}")
+            st.write(player["explanation"])
+            if player["history"]:
+                st.dataframe(pd.DataFrame(player["history"]), hide_index=True, width="stretch")
+            if player["feature_sensitivity"]:
+                st.write("Largest prediction changes when one feature is replaced by its historical training median:")
+                st.dataframe(pd.DataFrame(player["feature_sensitivity"]), hide_index=True, width="stretch")
+    with st.expander("Data, model and selection notes", expanded=report["status"] != "ok"):
+        for note in report["warnings"] + report["selection_errors"]:
+            st.write(note)
+        st.json({"model": report["model"], "candidate_pool": report["candidate_pool"]})
+    st.download_button("Download UI report JSON", json.dumps(report, indent=2),
+                       file_name=f"match_{selected}_report.json", mime="application/json")
+    st.caption(f"Files saved in outputs/matches/{selected}/")
+
+
+if __name__ == "__main__":
+    main()

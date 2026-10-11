@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+fcc21ace,A Kamboj,Chennai Super Kings,AR,2025 profile candidate,33.48537569339385,87,0,79,8,
+844e79d1,D Brevis,Chennai Super Kings,AR,2025 profile candidate,44.86036805160311,79,79,0,0,
+efc04be7,Noor Ahmad,Chennai Super Kings,BOWL,2025 profile candidate,37.027472527472526,79,0,79,0,
+fe93fd9d,RA Jadeja,Chennai Super Kings,AR,2025 profile candidate,51.353092049016816,74,24,50,0,
+df5a6881,DP Conway,Chennai Super Kings,WK,2025 profile candidate,44.841642228739005,70,70,0,0,
+d5130a30,B Sai Sudharsan,Gujarat Titans,BAT,2025 profile candidate,63.494897959183675,51,51,0,0,
+85e0cf10,M Prasidh Krishna,Gujarat Titans,BOWL,2025 profile candidate,39.36280661722761,50,0,50,0,
+7dcb9bc9,M Shahrukh Khan,Gujarat Titans,BAT,2025 profile candidate,34.22087842138765,48,23,25,0,
+5f547c8b,Rashid Khan,Gujarat Titans,AR,2025 profile candidate,35.94672131147541,40,15,25,0,
+a4e37e47,S Dube,Chennai Super Kings,AR,2025 profile candidate,42.94262776581163,37,21,0,16,
+64839cb3,M Pathirana,Chennai Super Kings,BOWL,2025 profile candidate,35.01848495831823,33,0,25,8,

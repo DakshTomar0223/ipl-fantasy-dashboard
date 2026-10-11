@@ -1,0 +1,69 @@
+split,feature,importance
+Validation,avg_pts_last_5,0.053857257300583564
+Validation,avg_pts_last_10,0.41569346280711766
+Validation,max_pts_last_5,0.011996828585720936
+Validation,std_pts_last_5,0.032091529578991244
+Validation,last_pts,0.01571259261702249
+Validation,avg_runs_last_5,0.08727863617896625
+Validation,avg_wickets_last_5,0.010978485122348286
+Validation,avg_batting_last_5,0.06003100375602664
+Validation,avg_bowling_last_5,0.01973966251686963
+Validation,avg_fielding_last_5,0.057151029447067084
+Validation,avg_opponent_last_5,0.04137352319601877
+Validation,last_opponent_pts,0.037618150193552934
+Validation,avg_venue_last_5,0.05976006526797299
+Validation,previous_matches,0.023280208610552994
+Validation,history_count_5,0.0021420001237551184
+Validation,history_count_10,0.0019062316440637956
+Validation,opponent_history_count,0.01374730622372224
+Validation,venue_history_count,0.04593204010251289
+Validation,days_since_last_match,0.007417377034408875
+Validation,flagged_history_count_5,0.0015570450933041454
+Validation,missingindicator_avg_pts_last_5,0.0
+Validation,missingindicator_avg_pts_last_10,0.00030139550120758757
+Validation,missingindicator_max_pts_last_5,0.0
+Validation,missingindicator_std_pts_last_5,0.0
+Validation,missingindicator_last_pts,0.0
+Validation,missingindicator_avg_runs_last_5,0.0
+Validation,missingindicator_avg_wickets_last_5,0.0
+Validation,missingindicator_avg_batting_last_5,0.0
+Validation,missingindicator_avg_bowling_last_5,0.0
+Validation,missingindicator_avg_fielding_last_5,0.0
+Validation,missingindicator_avg_opponent_last_5,0.00043416909821342707
+Validation,missingindicator_last_opponent_pts,0.0
+Validation,missingindicator_avg_venue_last_5,0.0
+Validation,missingindicator_days_since_last_match,0.0
+Held-out test,avg_pts_last_5,0.041755990317707034
+Held-out test,avg_pts_last_10,0.40454684676956265
+Held-out test,max_pts_last_5,0.01591052158411771
+Held-out test,std_pts_last_5,0.03858483841660152
+Held-out test,last_pts,0.01217867910296752
+Held-out test,avg_runs_last_5,0.09669600576022806
+Held-out test,avg_wickets_last_5,0.009493942462851996
+Held-out test,avg_batting_last_5,0.054531110032442646
+Held-out test,avg_bowling_last_5,0.018606316195635717
+Held-out test,avg_fielding_last_5,0.053646800265694995
+Held-out test,avg_opponent_last_5,0.06604086387039641
+Held-out test,last_opponent_pts,0.03211003955341409
+Held-out test,avg_venue_last_5,0.038187956533385255
+Held-out test,previous_matches,0.023858403379493485
+Held-out test,history_count_5,0.0020898661628305764
+Held-out test,history_count_10,0.0032610281021517085
+Held-out test,opponent_history_count,0.023036708795612617
+Held-out test,venue_history_count,0.05635662305829531
+Held-out test,days_since_last_match,0.004121131363270926
+Held-out test,flagged_history_count_5,0.004404598044119106
+Held-out test,missingindicator_avg_pts_last_5,0.0
+Held-out test,missingindicator_avg_pts_last_10,0.0
+Held-out test,missingindicator_max_pts_last_5,0.0
+Held-out test,missingindicator_std_pts_last_5,0.0
+Held-out test,missingindicator_last_pts,0.0
+Held-out test,missingindicator_avg_runs_last_5,0.0
+Held-out test,missingindicator_avg_wickets_last_5,0.0
+Held-out test,missingindicator_avg_batting_last_5,0.0
+Held-out test,missingindicator_avg_bowling_last_5,0.0
+Held-out test,missingindicator_avg_fielding_last_5,0.00032078340021890196
+Held-out test,missingindicator_avg_opponent_last_5,0.0
+Held-out test,missingindicator_last_opponent_pts,0.0
+Held-out test,missingindicator_avg_venue_last_5,0.0002609468290019769
+Held-out test,missingindicator_days_since_last_match,0.0
