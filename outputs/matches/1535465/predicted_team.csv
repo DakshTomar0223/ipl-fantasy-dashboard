@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+b4b99816,Shubman Gill,Gujarat Titans,BAT,2025 profile candidate,61.44294559929235,12,12,0,0,
+d5130a30,B Sai Sudharsan,Gujarat Titans,BAT,2025 profile candidate,59.61542100283822,14,14,0,0,
+99b75528,JC Buttler,Gujarat Titans,WK,2025 profile candidate,56.79824801532987,28,20,0,8,
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,54.02539652567976,98,98,0,0,
+5b8c830e,KH Pandya,Royal Challengers Bengaluru,AR,2025 profile candidate,50.92239467849224,26,1,25,0,
+2c25d4f5,D Padikkal,Royal Challengers Bengaluru,BAT,2025 profile candidate,49.808278371617014,9,1,0,8,
+c740ea83,RM Patidar,Royal Challengers Bengaluru,BAT,2025 profile candidate,47.58662915770313,34,18,0,16,
+0f721006,JO Holder,Gujarat Titans,AR,2025 profile candidate,47.304826418289586,8,8,0,0,
+2e81a32d,B Kumar,Royal Challengers Bengaluru,BOWL,2025 profile candidate,46.785714285714285,50,0,50,0,
+e62dd25d,K Rabada,Gujarat Titans,BOWL,2025 profile candidate,44.32004555808656,44,3,25,16,
+a24be938,VR Iyer,Royal Challengers Bengaluru,AR,2025 profile candidate,40.31736526946108,44,44,0,0,

@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,54.02539652567976,98,98,0,0,
+b8527c3d,Rasikh Salam,Royal Challengers Bengaluru,BOWL,2025 profile candidate,36.39923267885353,87,0,79,8,
+f19ccfad,Washington Sundar,Gujarat Titans,AR,2025 profile candidate,39.492620320855615,63,63,0,0,
+5f547c8b,Rashid Khan,Gujarat Titans,AR,2025 profile candidate,37.488074117878966,59,9,50,0,
+03806cf8,JR Hazlewood,Royal Challengers Bengaluru,BOWL,2025 profile candidate,36.83528935653582,58,0,50,8,
+12314277,Arshad Khan,Gujarat Titans,BOWL,2025 profile candidate,32.76159196290572,52,19,25,8,
+2e81a32d,B Kumar,Royal Challengers Bengaluru,BOWL,2025 profile candidate,46.785714285714285,50,0,50,0,
+a24be938,VR Iyer,Royal Challengers Bengaluru,AR,2025 profile candidate,40.31736526946108,44,44,0,0,
+e62dd25d,K Rabada,Gujarat Titans,BOWL,2025 profile candidate,44.32004555808656,44,3,25,16,
+c740ea83,RM Patidar,Royal Challengers Bengaluru,BAT,2025 profile candidate,47.58662915770313,34,18,0,16,
+800d2d97,JM Sharma,Royal Challengers Bengaluru,WK,2025 profile candidate,29.915411727010575,32,12,0,20,
