@@ -1,0 +1,23 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+0994d0ae,V Shankar,Sunrisers Hyderabad,AR,2025 profile candidate,37.70195914964569,38,30,0,8,unresolved_fielding_event
+1dc12ab9,SK Raina,Chennai Super Kings,BAT,2025 profile candidate,44.97143427886536,50,50,0,0,unresolved_fielding_event
+23eeb873,DL Chahar,Chennai Super Kings,BOWL,2025 profile candidate,36.8352144469526,25,0,25,0,unresolved_fielding_event
+2e81a32d,B Kumar,Sunrisers Hyderabad,BOWL,2025 profile candidate,30.83050847457627,37,0,37,0,unresolved_fielding_event
+3355b542,F du Plessis,Chennai Super Kings,BAT,2025 profile candidate,46.91591017677974,1,1,0,0,unresolved_fielding_event
+3c6ffae8,YK Pathan,Sunrisers Hyderabad,AR,2025 profile candidate,28.24567474048443,5,5,0,0,unresolved_fielding_event
+4329fbb5,SR Watson,Chennai Super Kings,AR,2025 profile candidate,33.79895287958115,125,125,0,0,unresolved_fielding_event
+4a8a2e3b,MS Dhoni,Chennai Super Kings,WK,2025 profile candidate,46.91591017677974,20,0,0,20,unresolved_fielding_event
+5f547c8b,Rashid Khan,Sunrisers Hyderabad,AR,2025 profile candidate,33.07012622720897,25,0,25,0,unresolved_fielding_event
+70d205c9,AT Rayudu,Chennai Super Kings,BAT,2025 profile candidate,41.71455223880597,22,22,0,0,unresolved_fielding_event
+73ad96ed,DJ Hooda,Sunrisers Hyderabad,AR,2025 profile candidate,26.86405140344944,0,0,0,0,unresolved_fielding_event
+7dc35884,Shakib Al Hasan,Sunrisers Hyderabad,AR,2025 profile candidate,45.61513157894737,0,0,0,0,unresolved_fielding_event
+87e562a9,DJ Bravo,Chennai Super Kings,AR,2025 profile candidate,46.4589422407794,0,0,0,0,unresolved_fielding_event
+8b5b6769,Harbhajan Singh,Chennai Super Kings,BOWL,2025 profile candidate,38.81965881397238,50,0,50,0,unresolved_fielding_event
+93b4fc78,MK Pandey,Sunrisers Hyderabad,BAT,2025 profile candidate,30.31243093922652,104,104,0,0,unresolved_fielding_event
+99d63244,KM Jadhav,Chennai Super Kings,AR,2025 profile candidate,31.65062761506276,13,13,0,0,unresolved_fielding_event
+a2f46292,KK Ahmed,Sunrisers Hyderabad,BOWL,2025 profile candidate,37.74576271186441,0,0,0,0,unresolved_fielding_event
+abb83e27,JM Bairstow,Sunrisers Hyderabad,WK,2025 profile candidate,51.988581466842334,18,-2,0,20,unresolved_fielding_event
+acee4cc4,Imran Tahir,Chennai Super Kings,BOWL,2025 profile candidate,37.248740387165206,0,0,0,0,unresolved_fielding_event
+ce820073,Sandeep Sharma,Sunrisers Hyderabad,BOWL,2025 profile candidate,34.66618787704682,25,0,25,0,unresolved_fielding_event
+dcce6f09,DA Warner,Sunrisers Hyderabad,BAT,2025 profile candidate,51.500881834215164,72,72,0,0,unresolved_fielding_event
+fe93fd9d,RA Jadeja,Chennai Super Kings,AR,2025 profile candidate,45.93877551020408,8,0,0,8,unresolved_fielding_event

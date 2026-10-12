@@ -1,0 +1,2133 @@
+{
+  "schema_version": "ipl-ui-v2",
+  "status": "partial",
+  "match": {
+    "match_id": "1529308",
+    "date": "2026-05-20",
+    "venue": "Eden Gardens, Kolkata",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Mumbai Indians"
+    ],
+    "requested_date": "2026-05-20",
+    "nearest_date_distance_days": 0,
+    "actual_winner": "Kolkata Knight Riders",
+    "actual_result": "decisive"
+  },
+  "model": {
+    "algorithm": "AdaBoostRegressor",
+    "base_tree_max_depth": 4,
+    "estimators": 100,
+    "learning_rate": 0.05,
+    "training_cutoff": "2024-06-30",
+    "training_end_exclusive": "2024-07-01",
+    "training_rows": 20494,
+    "excluded_training_rows": 3822,
+    "query_mode": "held_out_after_cutoff",
+    "selected_match_in_training": false
+  },
+  "candidate_pool": {
+    "scope": "known_role_subset",
+    "participants": 25,
+    "known_roles": 19,
+    "quality_flagged_players": 0,
+    "unknown_roles": [
+      {
+        "player_id": "11061889",
+        "player": "SR Dubey"
+      },
+      {
+        "player_id": "5b615e7c",
+        "player": "Raghu Sharma"
+      },
+      {
+        "player_id": "9ca68676",
+        "player": "AM Ghazanfar"
+      },
+      {
+        "player_id": "d7017798",
+        "player": "A Raghuvanshi"
+      },
+      {
+        "player_id": "f12fe2a1",
+        "player": "T Dahiya"
+      },
+      {
+        "player_id": "fffa744b",
+        "player": "Naman Dhir"
+      }
+    ],
+    "missing_excel_ids": [],
+    "omitted_non_roster_rows": 0
+  },
+  "predicted_team": [
+    {
+      "player_id": "e66732f8",
+      "player": "RD Rickelton",
+      "team": "Mumbai Indians",
+      "role": "WK",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 54.37326607818411,
+      "total_fantasy_points": 23,
+      "batting_fantasy_points": 7,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 16,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "740742ef",
+      "player": "RG Sharma",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 19,
+      "batting_fantasy_points": 19,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "b0482a1d",
+      "player": "Tilak Varma",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 22,
+      "batting_fantasy_points": 22,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "bf74b130",
+      "player": "FH Allen",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 10,
+      "batting_fantasy_points": 10,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "eaa76d3c",
+      "player": "C Green",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 62,
+      "batting_fantasy_points": 4,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "9caf69a1",
+      "player": "WG Jacks",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 45.31185233160622,
+      "total_fantasy_points": 17,
+      "batting_fantasy_points": 17,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "dbe50b21",
+      "player": "HH Pandya",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 45.291242676534075,
+      "total_fantasy_points": 30,
+      "batting_fantasy_points": 30,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "0a509d6b",
+      "player": "RK Singh",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 44.30717948717949,
+      "total_fantasy_points": 17,
+      "batting_fantasy_points": 11,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 6,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "172dff15",
+      "player": "C Bosch",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 43.141698113207546,
+      "total_fantasy_points": 130,
+      "batting_fantasy_points": 43,
+      "bowling_fantasy_points": 79,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "29e95537",
+      "player": "AM Rahane",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 41.12053905665086,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 25,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "462411b3",
+      "player": "JJ Bumrah",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 37.26763863577193,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    }
+  ],
+  "actual_team": [
+    {
+      "player_id": "172dff15",
+      "player": "C Bosch",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 43.141698113207546,
+      "total_fantasy_points": 130,
+      "batting_fantasy_points": 43,
+      "bowling_fantasy_points": 79,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "93b4fc78",
+      "player": "MK Pandey",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 34.93353705118411,
+      "total_fantasy_points": 63,
+      "batting_fantasy_points": 55,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "eaa76d3c",
+      "player": "C Green",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 62,
+      "batting_fantasy_points": 4,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "650d5e49",
+      "player": "R Powell",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 29.82152023692004,
+      "total_fantasy_points": 52,
+      "batting_fantasy_points": 52,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "5d2eea49",
+      "player": "Kartik Tyagi",
+      "team": "Kolkata Knight Riders",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 36.21910981268259,
+      "total_fantasy_points": 50,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "23eeb873",
+      "player": "DL Chahar",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 35.26286509040334,
+      "total_fantasy_points": 37,
+      "batting_fantasy_points": 12,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "dbe50b21",
+      "player": "HH Pandya",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 45.291242676534075,
+      "total_fantasy_points": 30,
+      "batting_fantasy_points": 30,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "29e95537",
+      "player": "AM Rahane",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 41.12053905665086,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 25,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "462411b3",
+      "player": "JJ Bumrah",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 37.26763863577193,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "9d430b40",
+      "player": "SP Narine",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 37.600853282768426,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": ""
+    },
+    {
+      "player_id": "e66732f8",
+      "player": "RD Rickelton",
+      "team": "Mumbai Indians",
+      "role": "WK",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 54.37326607818411,
+      "total_fantasy_points": 23,
+      "batting_fantasy_points": 7,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 16,
+      "data_quality_notes": ""
+    }
+  ],
+  "actual_team_definition": "Highest Excel-point sum under the same constraints and candidate subset; no captain multipliers or credits.",
+  "selection_constraints": {
+    "players": 11,
+    "min_per_role": 1,
+    "max_per_role": 8,
+    "min_per_team": 1,
+    "credit_budget": null,
+    "captain_multipliers": false
+  },
+  "player_explanations": [
+    {
+      "player_id": "e66732f8",
+      "player": "RD Rickelton",
+      "team": "Mumbai Indians",
+      "role": "WK",
+      "predicted_points": 54.37326607818411,
+      "last_fantasy_points": 64.0,
+      "last_5_average": 88.6,
+      "last_10_average": 63.3,
+      "last_5_matches_available": 5,
+      "previous_matches": 24,
+      "previous_opponent_points": 109.0,
+      "opponent_average": 100.5,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 79.0,
+        "Bowling": 0.0,
+        "Fielding": 9.6
+      },
+      "history": [
+        {
+          "match_id": "1529284",
+          "date": "2026-04-29",
+          "end_date": "2026-04-29",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 165,
+          "batting_fantasy_points": 165,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529287",
+          "date": "2026-05-02",
+          "end_date": "2026-05-02",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 59,
+          "batting_fantasy_points": 51,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 129,
+          "batting_fantasy_points": 113,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 16,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 26,
+          "batting_fantasy_points": 2,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 24,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 64,
+          "batting_fantasy_points": 64,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 63.3,
+          "training_median": 31.8,
+          "prediction_difference": 10.06608659100462
+        },
+        {
+          "feature": "std_pts_last_5",
+          "value": 50.73302671830255,
+          "training_median": 21.490463001061656,
+          "prediction_difference": 3.6712068761249057
+        },
+        {
+          "feature": "max_pts_last_5",
+          "value": 165.0,
+          "training_median": 64.0,
+          "prediction_difference": 2.151207648808608
+        },
+        {
+          "feature": "avg_runs_last_5",
+          "value": 58.6,
+          "training_median": 10.2,
+          "prediction_difference": 1.6898396349811264
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "740742ef",
+      "player": "RG Sharma",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "predicted_points": 51.353092049016816,
+      "last_fantasy_points": 29.0,
+      "last_5_average": 39.4,
+      "last_10_average": 49.0,
+      "last_5_matches_available": 5,
+      "previous_matches": 277,
+      "previous_opponent_points": 104.0,
+      "opponent_average": 35.8,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 39.4,
+        "Bowling": 0.0,
+        "Fielding": 0.0
+      },
+      "history": [
+        {
+          "match_id": "1527686",
+          "date": "2026-04-07",
+          "end_date": "2026-04-07",
+          "opponent": "Rajasthan Royals",
+          "total_fantasy_points": 5,
+          "batting_fantasy_points": 5,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1527693",
+          "date": "2026-04-12",
+          "end_date": "2026-04-12",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 23,
+          "batting_fantasy_points": 23,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 112,
+          "batting_fantasy_points": 112,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 28,
+          "batting_fantasy_points": 28,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 29,
+          "batting_fantasy_points": 29,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 49.0,
+          "training_median": 31.8,
+          "prediction_difference": 8.410464283205187
+        },
+        {
+          "feature": "previous_matches",
+          "value": 277,
+          "training_median": 31.0,
+          "prediction_difference": 1.449610069786516
+        },
+        {
+          "feature": "last_opponent_pts",
+          "value": 104.0,
+          "training_median": 25.0,
+          "prediction_difference": -0.8689663803586853
+        },
+        {
+          "feature": "max_pts_last_5",
+          "value": 112.0,
+          "training_median": 64.0,
+          "prediction_difference": 0.7797828079223379
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "b0482a1d",
+      "player": "Tilak Varma",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "predicted_points": 51.353092049016816,
+      "last_fantasy_points": 101.0,
+      "last_5_average": 44.4,
+      "last_10_average": 46.6,
+      "last_5_matches_available": 5,
+      "previous_matches": 66,
+      "previous_opponent_points": 40.0,
+      "opponent_average": 31.2,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 39.6,
+        "Bowling": 0.0,
+        "Fielding": 4.8
+      },
+      "history": [
+        {
+          "match_id": "1529284",
+          "date": "2026-04-29",
+          "end_date": "2026-04-29",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 9,
+          "batting_fantasy_points": 9,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529287",
+          "date": "2026-05-02",
+          "end_date": "2026-05-02",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 5,
+          "batting_fantasy_points": 5,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 11,
+          "batting_fantasy_points": 11,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 96,
+          "batting_fantasy_points": 72,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 24,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 101,
+          "batting_fantasy_points": 101,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 46.6,
+          "training_median": 31.8,
+          "prediction_difference": 7.701724861516816
+        },
+        {
+          "feature": "std_pts_last_5",
+          "value": 44.24296554255829,
+          "training_median": 21.490463001061656,
+          "prediction_difference": 1.334933812959747
+        },
+        {
+          "feature": "avg_venue_last_5",
+          "value": 49.0,
+          "training_median": 31.0,
+          "prediction_difference": 0.7797828079223379
+        },
+        {
+          "feature": "last_pts",
+          "value": 101.0,
+          "training_median": 25.0,
+          "prediction_difference": -0.4456270726666247
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "bf74b130",
+      "player": "FH Allen",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "predicted_points": 51.353092049016816,
+      "last_fantasy_points": 125.0,
+      "last_5_average": 65.2,
+      "last_10_average": 47.888888888888886,
+      "last_5_matches_available": 5,
+      "previous_matches": 9,
+      "previous_opponent_points": 51.0,
+      "opponent_average": 51.0,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 65.2,
+        "Bowling": 0.0,
+        "Fielding": 0.0
+      },
+      "history": [
+        {
+          "match_id": "1529265",
+          "date": "2026-04-14",
+          "end_date": "2026-04-14",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 1,
+          "batting_fantasy_points": 1,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        },
+        {
+          "match_id": "1529288",
+          "date": "2026-05-03",
+          "end_date": "2026-05-03",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 36,
+          "batting_fantasy_points": 36,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529294",
+          "date": "2026-05-08",
+          "end_date": "2026-05-08",
+          "opponent": "Delhi Capitals",
+          "total_fantasy_points": 141,
+          "batting_fantasy_points": 141,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529300",
+          "date": "2026-05-13",
+          "end_date": "2026-05-13",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 23,
+          "batting_fantasy_points": 23,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529303",
+          "date": "2026-05-16",
+          "end_date": "2026-05-16",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 125,
+          "batting_fantasy_points": 125,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 47.888888888888886,
+          "training_median": 31.8,
+          "prediction_difference": 6.619127479682668
+        },
+        {
+          "feature": "previous_matches",
+          "value": 9,
+          "training_median": 31.0,
+          "prediction_difference": -1.46944820143041
+        },
+        {
+          "feature": "std_pts_last_5",
+          "value": 56.70414446934192,
+          "training_median": 21.490463001061656,
+          "prediction_difference": 1.334933812959747
+        },
+        {
+          "feature": "avg_runs_last_5",
+          "value": 48.2,
+          "training_median": 10.2,
+          "prediction_difference": 1.0375137115976045
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "eaa76d3c",
+      "player": "C Green",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "predicted_points": 51.353092049016816,
+      "last_fantasy_points": 96.0,
+      "last_5_average": 64.8,
+      "last_10_average": 55.2,
+      "last_5_matches_available": 5,
+      "previous_matches": 41,
+      "previous_opponent_points": 21.0,
+      "opponent_average": 21.0,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 40.0,
+        "Bowling": 20.0,
+        "Fielding": 4.8
+      },
+      "history": [
+        {
+          "match_id": "1529281",
+          "date": "2026-04-26",
+          "end_date": "2026-04-26",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 69,
+          "batting_fantasy_points": 44,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529288",
+          "date": "2026-05-03",
+          "end_date": "2026-05-03",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 44,
+          "batting_fantasy_points": 3,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 16,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529294",
+          "date": "2026-05-08",
+          "end_date": "2026-05-08",
+          "opponent": "Delhi Capitals",
+          "total_fantasy_points": 74,
+          "batting_fantasy_points": 41,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529300",
+          "date": "2026-05-13",
+          "end_date": "2026-05-13",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 41,
+          "batting_fantasy_points": 41,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529303",
+          "date": "2026-05-16",
+          "end_date": "2026-05-16",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 96,
+          "batting_fantasy_points": 71,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 55.2,
+          "training_median": 31.8,
+          "prediction_difference": 6.300568877029171
+        },
+        {
+          "feature": "std_pts_last_5",
+          "value": 20.37056700241797,
+          "training_median": 21.490463001061656,
+          "prediction_difference": -0.6513171220590195
+        },
+        {
+          "feature": "avg_batting_last_5",
+          "value": 40.0,
+          "training_median": 12.0,
+          "prediction_difference": -0.6513171220590195
+        },
+        {
+          "feature": "flagged_history_count_5",
+          "value": 1,
+          "training_median": 0.0,
+          "prediction_difference": -0.6513171220590195
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "9caf69a1",
+      "player": "WG Jacks",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "predicted_points": 45.31185233160622,
+      "last_fantasy_points": 39.0,
+      "last_5_average": 31.4,
+      "last_10_average": 40.1,
+      "last_5_matches_available": 5,
+      "previous_matches": 26,
+      "previous_opponent_points": 18.0,
+      "opponent_average": 47.5,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 23.2,
+        "Bowling": 5.0,
+        "Fielding": 3.2
+      },
+      "history": [
+        {
+          "match_id": "1529284",
+          "date": "2026-04-29",
+          "end_date": "2026-04-29",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 69,
+          "batting_fantasy_points": 61,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529287",
+          "date": "2026-05-02",
+          "end_date": "2026-05-02",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 1,
+          "batting_fantasy_points": 1,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 37,
+          "batting_fantasy_points": 12,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 11,
+          "batting_fantasy_points": 11,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 39,
+          "batting_fantasy_points": 31,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 40.1,
+          "training_median": 31.8,
+          "prediction_difference": 0.9100396427844686
+        },
+        {
+          "feature": "avg_batting_last_5",
+          "value": 23.2,
+          "training_median": 12.0,
+          "prediction_difference": 0.4702101028672132
+        },
+        {
+          "feature": "avg_runs_last_5",
+          "value": 18.4,
+          "training_median": 10.2,
+          "prediction_difference": 0.19459154361372555
+        },
+        {
+          "feature": "avg_venue_last_5",
+          "value": 77.0,
+          "training_median": 31.0,
+          "prediction_difference": 0.19459154361372555
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "dbe50b21",
+      "player": "HH Pandya",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "predicted_points": 45.291242676534075,
+      "last_fantasy_points": 20.0,
+      "last_5_average": 28.8,
+      "last_10_average": 37.7,
+      "last_5_matches_available": 5,
+      "previous_matches": 159,
+      "previous_opponent_points": 54.0,
+      "opponent_average": 35.2,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 18.8,
+        "Bowling": 10.0,
+        "Fielding": 0.0
+      },
+      "history": [
+        {
+          "match_id": "1529267",
+          "date": "2026-04-16",
+          "end_date": "2026-04-16",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 16,
+          "batting_fantasy_points": 16,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529273",
+          "date": "2026-04-20",
+          "end_date": "2026-04-20",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 41,
+          "batting_fantasy_points": 16,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529276",
+          "date": "2026-04-23",
+          "end_date": "2026-04-23",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 1,
+          "batting_fantasy_points": 1,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529284",
+          "date": "2026-04-29",
+          "end_date": "2026-04-29",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 66,
+          "batting_fantasy_points": 41,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529287",
+          "date": "2026-05-02",
+          "end_date": "2026-05-02",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 20,
+          "batting_fantasy_points": 20,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_runs_last_5",
+          "value": 15.8,
+          "training_median": 10.2,
+          "prediction_difference": 2.413347581166228
+        },
+        {
+          "feature": "avg_batting_last_5",
+          "value": 18.8,
+          "training_median": 12.0,
+          "prediction_difference": 1.6398754890340754
+        },
+        {
+          "feature": "avg_fielding_last_5",
+          "value": 0.0,
+          "training_median": 3.0,
+          "prediction_difference": 0.17398188854158292
+        },
+        {
+          "feature": "venue_history_count",
+          "value": 3,
+          "training_median": 1.0,
+          "prediction_difference": -0.09088660103246582
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "0a509d6b",
+      "player": "RK Singh",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "predicted_points": 44.30717948717949,
+      "last_fantasy_points": 0.0,
+      "last_5_average": 45.2,
+      "last_10_average": 32.3,
+      "last_5_matches_available": 5,
+      "previous_matches": 73,
+      "previous_opponent_points": 49.0,
+      "opponent_average": 28.0,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 38.8,
+        "Bowling": 0.0,
+        "Fielding": 6.4
+      },
+      "history": [
+        {
+          "match_id": "1529281",
+          "date": "2026-04-26",
+          "end_date": "2026-04-26",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 140,
+          "batting_fantasy_points": 108,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 32,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529288",
+          "date": "2026-05-03",
+          "end_date": "2026-05-03",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 26,
+          "batting_fantasy_points": 26,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529294",
+          "date": "2026-05-08",
+          "end_date": "2026-05-08",
+          "opponent": "Delhi Capitals",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529300",
+          "date": "2026-05-13",
+          "end_date": "2026-05-13",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 60,
+          "batting_fantasy_points": 60,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529303",
+          "date": "2026-05-16",
+          "end_date": "2026-05-16",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_runs_last_5",
+          "value": 30.8,
+          "training_median": 10.2,
+          "prediction_difference": 1.4292843918116418
+        },
+        {
+          "feature": "std_pts_last_5",
+          "value": 52.27006791654283,
+          "training_median": 21.490463001061656,
+          "prediction_difference": 1.3645517213678602
+        },
+        {
+          "feature": "avg_bowling_last_5",
+          "value": 0.0,
+          "training_median": 5.0,
+          "prediction_difference": -0.9380017001759455
+        },
+        {
+          "feature": "avg_pts_last_5",
+          "value": 45.2,
+          "training_median": 30.8,
+          "prediction_difference": 0.4450116416432621
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "172dff15",
+      "player": "C Bosch",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "predicted_points": 43.141698113207546,
+      "last_fantasy_points": 33.0,
+      "last_5_average": 55.6,
+      "last_10_average": 42.875,
+      "last_5_matches_available": 5,
+      "previous_matches": 8,
+      "previous_opponent_points": null,
+      "opponent_average": null,
+      "specialty_from_previous_matches": "Bowling",
+      "past_domain_averages": {
+        "Batting": 10.0,
+        "Bowling": 44.0,
+        "Fielding": 1.6
+      },
+      "history": [
+        {
+          "match_id": "1473493",
+          "date": "2025-05-06",
+          "end_date": "2025-05-06",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 32,
+          "batting_fantasy_points": 32,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1527681",
+          "date": "2026-04-04",
+          "end_date": "2026-04-04",
+          "opponent": "Delhi Capitals",
+          "total_fantasy_points": 38,
+          "batting_fantasy_points": 13,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 50,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 50,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 125,
+          "batting_fantasy_points": 5,
+          "bowling_fantasy_points": 120,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 33,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 42.875,
+          "training_median": 31.8,
+          "prediction_difference": 4.9013569190279185
+        },
+        {
+          "feature": "avg_bowling_last_5",
+          "value": 44.0,
+          "training_median": 5.0,
+          "prediction_difference": -1.1783474448790159
+        },
+        {
+          "feature": "avg_pts_last_5",
+          "value": 55.6,
+          "training_median": 30.8,
+          "prediction_difference": 0.7695676258938136
+        },
+        {
+          "feature": "days_since_last_match",
+          "value": 6.0,
+          "training_median": 3.0,
+          "prediction_difference": 0.5214346886887995
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "29e95537",
+      "player": "AM Rahane",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "predicted_points": 41.12053905665086,
+      "last_fantasy_points": 17.0,
+      "last_5_average": 32.4,
+      "last_10_average": 26.0,
+      "last_5_matches_available": 5,
+      "previous_matches": 212,
+      "previous_opponent_points": 88.0,
+      "opponent_average": 46.0,
+      "specialty_from_previous_matches": "Batting",
+      "past_domain_averages": {
+        "Batting": 24.4,
+        "Bowling": 0.0,
+        "Fielding": 8.0
+      },
+      "history": [
+        {
+          "match_id": "1529281",
+          "date": "2026-04-26",
+          "end_date": "2026-04-26",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 12,
+          "batting_fantasy_points": 12,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529288",
+          "date": "2026-05-03",
+          "end_date": "2026-05-03",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 69,
+          "batting_fantasy_points": 53,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 16,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529294",
+          "date": "2026-05-08",
+          "end_date": "2026-05-08",
+          "opponent": "Delhi Capitals",
+          "total_fantasy_points": 24,
+          "batting_fantasy_points": 16,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 8,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529300",
+          "date": "2026-05-13",
+          "end_date": "2026-05-13",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 40,
+          "batting_fantasy_points": 24,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 16,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529303",
+          "date": "2026-05-16",
+          "end_date": "2026-05-16",
+          "opponent": "Gujarat Titans",
+          "total_fantasy_points": 17,
+          "batting_fantasy_points": 17,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": "shared_over_maiden_review"
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "avg_pts_last_10",
+          "value": 26.0,
+          "training_median": 31.8,
+          "prediction_difference": -1.8220887091607665
+        },
+        {
+          "feature": "avg_runs_last_5",
+          "value": 19.8,
+          "training_median": 10.2,
+          "prediction_difference": 1.7909858699872174
+        },
+        {
+          "feature": "opponent_history_count",
+          "value": 30,
+          "training_median": 3.0,
+          "prediction_difference": 1.7009859840251664
+        },
+        {
+          "feature": "avg_bowling_last_5",
+          "value": 0.0,
+          "training_median": 5.0,
+          "prediction_difference": -0.8954792499852928
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    },
+    {
+      "player_id": "462411b3",
+      "player": "JJ Bumrah",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "predicted_points": 37.26763863577193,
+      "last_fantasy_points": 0.0,
+      "last_5_average": 5.0,
+      "last_10_average": 9.1,
+      "last_5_matches_available": 5,
+      "previous_matches": 155,
+      "previous_opponent_points": 0.0,
+      "opponent_average": 58.2,
+      "specialty_from_previous_matches": "Bowling",
+      "past_domain_averages": {
+        "Batting": 0.0,
+        "Bowling": 5.0,
+        "Fielding": 0.0
+      },
+      "history": [
+        {
+          "match_id": "1529284",
+          "date": "2026-04-29",
+          "end_date": "2026-04-29",
+          "opponent": "Sunrisers Hyderabad",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529287",
+          "date": "2026-05-02",
+          "end_date": "2026-05-02",
+          "opponent": "Chennai Super Kings",
+          "total_fantasy_points": 25,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 25,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529290",
+          "date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "opponent": "Lucknow Super Giants",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529297",
+          "date": "2026-05-10",
+          "end_date": "2026-05-10",
+          "opponent": "Royal Challengers Bengaluru",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        },
+        {
+          "match_id": "1529301",
+          "date": "2026-05-14",
+          "end_date": "2026-05-14",
+          "opponent": "Punjab Kings",
+          "total_fantasy_points": 0,
+          "batting_fantasy_points": 0,
+          "bowling_fantasy_points": 0,
+          "fielding_fantasy_points": 0,
+          "data_quality_notes": ""
+        }
+      ],
+      "feature_sensitivity": [
+        {
+          "feature": "opponent_history_count",
+          "value": 19,
+          "training_median": 3.0,
+          "prediction_difference": 2.59189395492087
+        },
+        {
+          "feature": "avg_batting_last_5",
+          "value": 0.0,
+          "training_median": 12.0,
+          "prediction_difference": 2.4470444621347838
+        },
+        {
+          "feature": "previous_matches",
+          "value": 155,
+          "training_median": 31.0,
+          "prediction_difference": 1.1947622978079124
+        },
+        {
+          "feature": "last_opponent_pts",
+          "value": 0.0,
+          "training_median": 25.0,
+          "prediction_difference": 0.7401923350559372
+        }
+      ],
+      "explanation": "Selected in the maximum-predicted-total valid XI. Form uses earlier matches. Replacing one feature with its training median measures model sensitivity, not an additive or causal contribution."
+    }
+  ],
+  "team_win_probabilities": {
+    "status": "chronologically_calibrated_adaboost",
+    "probabilities": [
+      {
+        "team": "Kolkata Knight Riders",
+        "win_percent": 53.2,
+        "probability": 0.5319655840812795
+      },
+      {
+        "team": "Mumbai Indians",
+        "win_percent": 46.8,
+        "probability": 0.4680344159187205
+      }
+    ],
+    "evidence": {
+      "teams": {
+        "Kolkata Knight Riders": {
+          "recent_decisive_matches": 5,
+          "recent_wins": 4,
+          "overall_decisive_matches": 274,
+          "overall_wins": 141,
+          "team_fantasy_last_5": 36.61923076923077,
+          "candidate_form": 37.608333333333334,
+          "candidate_batting": 19.316666666666666,
+          "candidate_bowling": 14.158333333333333,
+          "candidate_fielding": 4.133333333333333,
+          "experience": 72.23076923076923
+        },
+        "Mumbai Indians": {
+          "recent_decisive_matches": 5,
+          "recent_wins": 2,
+          "overall_decisive_matches": 289,
+          "overall_wins": 157,
+          "team_fantasy_last_5": 35.16666666666667,
+          "candidate_form": 35.30416666666667,
+          "candidate_batting": 22.433333333333334,
+          "candidate_bowling": 10.4375,
+          "candidate_fielding": 2.433333333333333,
+          "experience": 86.66666666666667
+        }
+      },
+      "head_to_head_matches": 36,
+      "head_to_head_wins": {
+        "Kolkata Knight Riders": 11,
+        "Mumbai Indians": 25
+      }
+    },
+    "training_matches": 880,
+    "calibration_matches": 200,
+    "interpretation": "Estimate conditional on a recorded winner, including tiebreak winners. Unresolved ties/no-results are not a third class; calibration does not guarantee accuracy."
+  },
+  "comparison": {
+    "predicted_team_expected_points": 516.2257845752015,
+    "predicted_team_actual_points": 380.0,
+    "actual_best_team_points": 522.0,
+    "selection_regret": 142.0,
+    "overlap": 6,
+    "pool_scope": "known_role_subset"
+  },
+  "warnings": [
+    "Targets follow the uploaded Excel and custom points formula, not an official Dream11 export.",
+    "Recorded participants are used for this retrospective comparison; a full pre-toss squad is not available.",
+    "Roles in the workbook are largely 2025 profile candidates, not verified historical fantasy roles.",
+    "History uses earlier completed matches, including earlier post-cutoff results as input; fitting stays within the cutoff.",
+    "6 unknown-role players excluded. Both optimizations use the same known-role subset.",
+    "Selection retains the ZIP's constraints: 11 players, 1\u20138 per role, at least one from each team. Credits and captain/vice-captain multipliers are not supplied."
+  ],
+  "selection_errors": [],
+  "charts": {
+    "player_form": "outputs/matches/1529308/player_form.png",
+    "player_domains": "outputs/matches/1529308/player_domains.png"
+  },
+  "player_predictions": [
+    {
+      "player_id": "0a509d6b",
+      "player": "RK Singh",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 44.30717948717949,
+      "total_fantasy_points": 17,
+      "batting_fantasy_points": 11,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 6,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 45.2,
+      "avg_pts_last_10": 32.3,
+      "last_pts": 0.0,
+      "previous_matches": 73,
+      "recent_average": 45.2,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "11061889",
+      "player": "SR Dubey",
+      "team": "Kolkata Knight Riders",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 33.868065268065266,
+      "total_fantasy_points": 50,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": 12.5,
+      "avg_pts_last_10": 12.5,
+      "last_pts": 25.0,
+      "previous_matches": 2,
+      "recent_average": 12.5,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "172dff15",
+      "player": "C Bosch",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 43.141698113207546,
+      "total_fantasy_points": 130,
+      "batting_fantasy_points": 43,
+      "bowling_fantasy_points": 79,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 55.6,
+      "avg_pts_last_10": 42.875,
+      "last_pts": 33.0,
+      "previous_matches": 8,
+      "recent_average": 55.6,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "23eeb873",
+      "player": "DL Chahar",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 35.26286509040334,
+      "total_fantasy_points": 37,
+      "batting_fantasy_points": 12,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 23.2,
+      "avg_pts_last_10": 24.5,
+      "last_pts": 50.0,
+      "previous_matches": 101,
+      "recent_average": 23.2,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "271f83cd",
+      "player": "SA Yadav",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 39.329553186663645,
+      "total_fantasy_points": 19,
+      "batting_fantasy_points": 19,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 21.0,
+      "avg_pts_last_10": 24.5,
+      "last_pts": -2.0,
+      "previous_matches": 175,
+      "recent_average": 21.0,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "29e95537",
+      "player": "AM Rahane",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 41.12053905665086,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 25,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 32.4,
+      "avg_pts_last_10": 26.0,
+      "last_pts": 17.0,
+      "previous_matches": 212,
+      "recent_average": 32.4,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "462411b3",
+      "player": "JJ Bumrah",
+      "team": "Mumbai Indians",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 37.26763863577193,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 5.0,
+      "avg_pts_last_10": 9.1,
+      "last_pts": 0.0,
+      "previous_matches": 155,
+      "recent_average": 5.0,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "5b615e7c",
+      "player": "Raghu Sharma",
+      "team": "Mumbai Indians",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 32.88426763110307,
+      "total_fantasy_points": 0,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": 8.25,
+      "avg_pts_last_10": 8.25,
+      "last_pts": 0.0,
+      "previous_matches": 4,
+      "recent_average": 8.25,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "5b7ab5a9",
+      "player": "CV Varun",
+      "team": "Kolkata Knight Riders",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 36.83528935653582,
+      "total_fantasy_points": 6,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 6,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 41.6,
+      "avg_pts_last_10": 27.4,
+      "last_pts": 0.0,
+      "previous_matches": 92,
+      "recent_average": 41.6,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "5d2eea49",
+      "player": "Kartik Tyagi",
+      "team": "Kolkata Knight Riders",
+      "role": "BOWL",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 36.21910981268259,
+      "total_fantasy_points": 50,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 43.6,
+      "avg_pts_last_10": 40.4,
+      "last_pts": 0.0,
+      "previous_matches": 31,
+      "recent_average": 43.6,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "650d5e49",
+      "player": "R Powell",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 29.82152023692004,
+      "total_fantasy_points": 52,
+      "batting_fantasy_points": 52,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 10.4,
+      "avg_pts_last_10": 19.8,
+      "last_pts": 0.0,
+      "previous_matches": 39,
+      "recent_average": 10.4,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "740742ef",
+      "player": "RG Sharma",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 19,
+      "batting_fantasy_points": 19,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 39.4,
+      "avg_pts_last_10": 49.0,
+      "last_pts": 29.0,
+      "previous_matches": 277,
+      "recent_average": 39.4,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "93b4fc78",
+      "player": "MK Pandey",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 34.93353705118411,
+      "total_fantasy_points": 63,
+      "batting_fantasy_points": 55,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 4.8,
+      "avg_pts_last_10": 22.3,
+      "last_pts": 8.0,
+      "previous_matches": 178,
+      "recent_average": 4.8,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "9ca68676",
+      "player": "AM Ghazanfar",
+      "team": "Mumbai Indians",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 37.027472527472526,
+      "total_fantasy_points": 33,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": 35.0,
+      "avg_pts_last_10": 36.111111111111114,
+      "last_pts": 25.0,
+      "previous_matches": 9,
+      "recent_average": 35.0,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "9caf69a1",
+      "player": "WG Jacks",
+      "team": "Mumbai Indians",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 45.31185233160622,
+      "total_fantasy_points": 17,
+      "batting_fantasy_points": 17,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 31.4,
+      "avg_pts_last_10": 40.1,
+      "last_pts": 39.0,
+      "previous_matches": 26,
+      "recent_average": 31.4,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "9d430b40",
+      "player": "SP Narine",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 37.600853282768426,
+      "total_fantasy_points": 25,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 25,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 39.0,
+      "avg_pts_last_10": 37.2,
+      "last_pts": 50.0,
+      "previous_matches": 199,
+      "recent_average": 39.0,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "b0482a1d",
+      "player": "Tilak Varma",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 22,
+      "batting_fantasy_points": 22,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 44.4,
+      "avg_pts_last_10": 46.6,
+      "last_pts": 101.0,
+      "previous_matches": 66,
+      "recent_average": 44.4,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "bf74b130",
+      "player": "FH Allen",
+      "team": "Kolkata Knight Riders",
+      "role": "BAT",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 10,
+      "batting_fantasy_points": 10,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 65.2,
+      "avg_pts_last_10": 47.888888888888886,
+      "last_pts": 125.0,
+      "previous_matches": 9,
+      "recent_average": 65.2,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "d7017798",
+      "player": "A Raghuvanshi",
+      "team": "Kolkata Knight Riders",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 51.06197576887232,
+      "total_fantasy_points": 8,
+      "batting_fantasy_points": 0,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": 64.2,
+      "avg_pts_last_10": 45.5,
+      "last_pts": 116.0,
+      "previous_matches": 34,
+      "recent_average": 64.2,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "dbe50b21",
+      "player": "HH Pandya",
+      "team": "Mumbai Indians",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 45.291242676534075,
+      "total_fantasy_points": 30,
+      "batting_fantasy_points": 30,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 28.8,
+      "avg_pts_last_10": 37.7,
+      "last_pts": 20.0,
+      "previous_matches": 159,
+      "recent_average": 28.8,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "e4cdf230",
+      "player": "AS Roy",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 34.28110289172831,
+      "total_fantasy_points": 20,
+      "batting_fantasy_points": 4,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 16,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 27.6,
+      "avg_pts_last_10": 26.6,
+      "last_pts": 8.0,
+      "previous_matches": 29,
+      "recent_average": 27.6,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "e66732f8",
+      "player": "RD Rickelton",
+      "team": "Mumbai Indians",
+      "role": "WK",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 54.37326607818411,
+      "total_fantasy_points": 23,
+      "batting_fantasy_points": 7,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 16,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 88.6,
+      "avg_pts_last_10": 63.3,
+      "last_pts": 64.0,
+      "previous_matches": 24,
+      "recent_average": 88.6,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "eaa76d3c",
+      "player": "C Green",
+      "team": "Kolkata Knight Riders",
+      "role": "AR",
+      "role_source": "2025 profile candidate",
+      "predicted_points": 51.353092049016816,
+      "total_fantasy_points": 62,
+      "batting_fantasy_points": 4,
+      "bowling_fantasy_points": 50,
+      "fielding_fantasy_points": 8,
+      "data_quality_notes": "",
+      "avg_pts_last_5": 64.8,
+      "avg_pts_last_10": 55.2,
+      "last_pts": 96.0,
+      "previous_matches": 41,
+      "recent_average": 64.8,
+      "flagged": false,
+      "eligible_for_selection": true,
+      "selected_predicted_xi": true,
+      "selected_actual_xi": true
+    },
+    {
+      "player_id": "f12fe2a1",
+      "player": "T Dahiya",
+      "team": "Kolkata Knight Riders",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 37.600853282768426,
+      "total_fantasy_points": 13,
+      "batting_fantasy_points": 13,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": null,
+      "avg_pts_last_10": null,
+      "last_pts": null,
+      "previous_matches": 0,
+      "recent_average": 32.583780618717675,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    },
+    {
+      "player_id": "fffa744b",
+      "player": "Naman Dhir",
+      "team": "Mumbai Indians",
+      "role": "UNKNOWN",
+      "role_source": "unavailable",
+      "predicted_points": 44.73396456933415,
+      "total_fantasy_points": -2,
+      "batting_fantasy_points": -2,
+      "bowling_fantasy_points": 0,
+      "fielding_fantasy_points": 0,
+      "data_quality_notes": "role_unknown",
+      "avg_pts_last_5": 43.0,
+      "avg_pts_last_10": 40.8,
+      "last_pts": 11.0,
+      "previous_matches": 36,
+      "recent_average": 43.0,
+      "flagged": true,
+      "eligible_for_selection": false,
+      "selected_predicted_xi": false,
+      "selected_actual_xi": false
+    }
+  ],
+  "request_key": "7097ab1898e759b9ea0e41dee3df3aa880ab101f9ae3af590cbb44e6d3b8e098"
+}

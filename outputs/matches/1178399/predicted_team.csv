@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+dbe50b21,HH Pandya,Mumbai Indians,AR,2025 profile candidate,57.994581577363036,71,21,50,0,unresolved_fielding_event
+b17e2f24,KL Rahul,Punjab Kings,BAT,2025 profile candidate,50.04425287356322,134,134,0,0,unresolved_fielding_event
+5b8c830e,KH Pandya,Mumbai Indians,AR,2025 profile candidate,46.999550157444894,9,1,0,8,unresolved_fielding_event
+271f83cd,SA Yadav,Mumbai Indians,BAT,2025 profile candidate,45.951002826759996,25,25,0,0,unresolved_fielding_event
+372455c4,Q de Kock,Mumbai Indians,WK,2025 profile candidate,45.150678733031675,42,26,0,16,unresolved_fielding_event
+a757b0d8,KA Pollard,Mumbai Indians,AR,2025 profile candidate,45.03510466988728,114,114,0,0,unresolved_fielding_event
+d67d5f00,DA Miller,Punjab Kings,BAT,2025 profile candidate,44.648992248062015,40,8,0,32,unresolved_fielding_event
+b0946605,AS Joseph,Mumbai Indians,BOWL,2025 profile candidate,43.445086705202314,17,17,0,0,unresolved_fielding_event
+9601c534,SD Lad,Mumbai Indians,BAT,2025 profile candidate,43.22481654436291,18,18,0,0,unresolved_fielding_event
+db584dad,CH Gayle,Punjab Kings,AR,2025 profile candidate,43.053333333333335,88,88,0,0,unresolved_fielding_event
+e94915e6,SM Curran,Punjab Kings,AR,2025 profile candidate,41.70140809655519,35,10,25,0,unresolved_fielding_event

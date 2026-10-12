@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+172dff15,C Bosch,Mumbai Indians,AR,2025 profile candidate,43.141698113207546,130,43,79,8,
+93b4fc78,MK Pandey,Kolkata Knight Riders,BAT,2025 profile candidate,34.93353705118411,63,55,0,8,
+eaa76d3c,C Green,Kolkata Knight Riders,AR,2025 profile candidate,51.353092049016816,62,4,50,8,
+650d5e49,R Powell,Kolkata Knight Riders,BAT,2025 profile candidate,29.82152023692004,52,52,0,0,
+5d2eea49,Kartik Tyagi,Kolkata Knight Riders,BOWL,2025 profile candidate,36.21910981268259,50,0,50,0,
+23eeb873,DL Chahar,Mumbai Indians,BOWL,2025 profile candidate,35.26286509040334,37,12,25,0,
+dbe50b21,HH Pandya,Mumbai Indians,AR,2025 profile candidate,45.291242676534075,30,30,0,0,
+29e95537,AM Rahane,Kolkata Knight Riders,BAT,2025 profile candidate,41.12053905665086,25,25,0,0,
+462411b3,JJ Bumrah,Mumbai Indians,BOWL,2025 profile candidate,37.26763863577193,25,0,25,0,
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,37.600853282768426,25,0,25,0,
+e66732f8,RD Rickelton,Mumbai Indians,WK,2025 profile candidate,54.37326607818411,23,7,0,16,

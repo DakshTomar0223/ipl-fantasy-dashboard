@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+4329fbb5,SR Watson,Chennai Super Kings,AR,2025 profile candidate,33.79895287958115,125,125,0,0,unresolved_fielding_event
+93b4fc78,MK Pandey,Sunrisers Hyderabad,BAT,2025 profile candidate,30.31243093922652,104,104,0,0,unresolved_fielding_event
+dcce6f09,DA Warner,Sunrisers Hyderabad,BAT,2025 profile candidate,51.500881834215164,72,72,0,0,unresolved_fielding_event
+1dc12ab9,SK Raina,Chennai Super Kings,BAT,2025 profile candidate,44.97143427886536,50,50,0,0,unresolved_fielding_event
+8b5b6769,Harbhajan Singh,Chennai Super Kings,BOWL,2025 profile candidate,38.81965881397238,50,0,50,0,unresolved_fielding_event
+0994d0ae,V Shankar,Sunrisers Hyderabad,AR,2025 profile candidate,37.70195914964569,38,30,0,8,unresolved_fielding_event
+2e81a32d,B Kumar,Sunrisers Hyderabad,BOWL,2025 profile candidate,30.83050847457627,37,0,37,0,unresolved_fielding_event
+23eeb873,DL Chahar,Chennai Super Kings,BOWL,2025 profile candidate,36.8352144469526,25,0,25,0,unresolved_fielding_event
+5f547c8b,Rashid Khan,Sunrisers Hyderabad,AR,2025 profile candidate,33.07012622720897,25,0,25,0,unresolved_fielding_event
+ce820073,Sandeep Sharma,Sunrisers Hyderabad,BOWL,2025 profile candidate,34.66618787704682,25,0,25,0,unresolved_fielding_event
+4a8a2e3b,MS Dhoni,Chennai Super Kings,WK,2025 profile candidate,46.91591017677974,20,0,0,20,unresolved_fielding_event

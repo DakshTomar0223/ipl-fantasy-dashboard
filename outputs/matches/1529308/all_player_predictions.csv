@@ -1,0 +1,26 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+0a509d6b,RK Singh,Kolkata Knight Riders,BAT,2025 profile candidate,44.30717948717949,17,11,0,6,
+11061889,SR Dubey,Kolkata Knight Riders,UNKNOWN,unavailable,33.868065268065266,50,0,50,0,role_unknown
+172dff15,C Bosch,Mumbai Indians,AR,2025 profile candidate,43.141698113207546,130,43,79,8,
+23eeb873,DL Chahar,Mumbai Indians,BOWL,2025 profile candidate,35.26286509040334,37,12,25,0,
+271f83cd,SA Yadav,Mumbai Indians,BAT,2025 profile candidate,39.329553186663645,19,19,0,0,
+29e95537,AM Rahane,Kolkata Knight Riders,BAT,2025 profile candidate,41.12053905665086,25,25,0,0,
+462411b3,JJ Bumrah,Mumbai Indians,BOWL,2025 profile candidate,37.26763863577193,25,0,25,0,
+5b615e7c,Raghu Sharma,Mumbai Indians,UNKNOWN,unavailable,32.88426763110307,0,0,0,0,role_unknown
+5b7ab5a9,CV Varun,Kolkata Knight Riders,BOWL,2025 profile candidate,36.83528935653582,6,0,0,6,
+5d2eea49,Kartik Tyagi,Kolkata Knight Riders,BOWL,2025 profile candidate,36.21910981268259,50,0,50,0,
+650d5e49,R Powell,Kolkata Knight Riders,BAT,2025 profile candidate,29.82152023692004,52,52,0,0,
+740742ef,RG Sharma,Mumbai Indians,BAT,2025 profile candidate,51.353092049016816,19,19,0,0,
+93b4fc78,MK Pandey,Kolkata Knight Riders,BAT,2025 profile candidate,34.93353705118411,63,55,0,8,
+9ca68676,AM Ghazanfar,Mumbai Indians,UNKNOWN,unavailable,37.027472527472526,33,0,25,8,role_unknown
+9caf69a1,WG Jacks,Mumbai Indians,BAT,2025 profile candidate,45.31185233160622,17,17,0,0,
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,37.600853282768426,25,0,25,0,
+b0482a1d,Tilak Varma,Mumbai Indians,AR,2025 profile candidate,51.353092049016816,22,22,0,0,
+bf74b130,FH Allen,Kolkata Knight Riders,BAT,2025 profile candidate,51.353092049016816,10,10,0,0,
+d7017798,A Raghuvanshi,Kolkata Knight Riders,UNKNOWN,unavailable,51.06197576887232,8,0,0,8,role_unknown
+dbe50b21,HH Pandya,Mumbai Indians,AR,2025 profile candidate,45.291242676534075,30,30,0,0,
+e4cdf230,AS Roy,Kolkata Knight Riders,AR,2025 profile candidate,34.28110289172831,20,4,0,16,
+e66732f8,RD Rickelton,Mumbai Indians,WK,2025 profile candidate,54.37326607818411,23,7,0,16,
+eaa76d3c,C Green,Kolkata Knight Riders,AR,2025 profile candidate,51.353092049016816,62,4,50,8,
+f12fe2a1,T Dahiya,Kolkata Knight Riders,UNKNOWN,unavailable,37.600853282768426,13,13,0,0,role_unknown
+fffa744b,Naman Dhir,Mumbai Indians,UNKNOWN,unavailable,44.73396456933415,-2,-2,0,0,role_unknown
