@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+d5130a30,B Sai Sudharsan,Gujarat Titans,BAT,2025 profile candidate,54.752747252747255,120,104,0,16,
+99b75528,JC Buttler,Gujarat Titans,WK,2025 profile candidate,52.5102187163858,53,45,0,8,
+b4b99816,Shubman Gill,Gujarat Titans,BAT,2025 profile candidate,49.12693653173413,10,2,0,8,
+04a418e8,R Parag,Rajasthan Royals,BAT,2025 profile candidate,48.0258064516129,33,33,0,0,
+6c19c6e5,YBK Jaiswal,Rajasthan Royals,BAT,2025 profile candidate,47.54695222405272,15,7,0,8,
+fb2d1dda,N Rana,Rajasthan Royals,BAT,2025 profile candidate,45.351351351351354,1,1,0,0,
+12314277,Arshad Khan,Gujarat Titans,BOWL,2025 profile candidate,44.86036805160311,25,0,25,0,
+bcf325d2,Dhruv Jurel,Rajasthan Royals,WK,2025 profile candidate,43.26903114186851,6,6,0,0,
+a4cc73aa,SV Samson,Rajasthan Royals,WK,2025 profile candidate,43.141698113207546,81,53,0,28,
+2f49c897,Mohammed Siraj,Gujarat Titans,BOWL,2025 profile candidate,41.48504983388705,25,0,25,0,
+5f547c8b,Rashid Khan,Gujarat Titans,AR,2025 profile candidate,35.94672131147541,81,15,50,16,
