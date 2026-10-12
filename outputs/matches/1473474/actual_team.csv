@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,52.5102187163858,96,90,0,6,
+2c25d4f5,D Padikkal,Royal Challengers Bengaluru,BAT,2025 profile candidate,33.893451720310765,82,82,0,0,
+5b8c830e,KH Pandya,Royal Challengers Bengaluru,AR,2025 profile candidate,37.381956649091975,58,0,50,8,
+9440ef41,Suyash Sharma,Royal Challengers Bengaluru,BOWL,2025 profile candidate,31.232876712328768,50,0,50,0,
+9418198b,P Simran Singh,Punjab Kings,WK,2025 profile candidate,42.94262776581163,44,44,0,0,
+989889ff,JP Inglis,Punjab Kings,WK,2025 profile candidate,34.352666666666664,41,33,0,8,
+81c36ee9,M Jansen,Punjab Kings,AR,2025 profile candidate,40.02244039270687,37,29,0,8,
+26989d80,Shashank Singh,Punjab Kings,AR,2025 profile candidate,40.31736526946108,36,36,0,0,
+244048f6,Arshdeep Singh,Punjab Kings,BOWL,2025 profile candidate,37.027472527472526,25,0,25,0,
+57ee1fde,YS Chahal,Punjab Kings,BOWL,2025 profile candidate,36.63371266002845,25,0,25,0,
+c5aef772,R Shepherd,Royal Challengers Bengaluru,AR,2025 profile candidate,35.01848495831823,25,0,25,0,

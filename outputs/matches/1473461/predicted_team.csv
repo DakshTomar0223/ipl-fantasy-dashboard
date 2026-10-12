@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,56.627870887647425,27,27,0,0,
+2e171977,AR Patel,Delhi Capitals,AR,2025 profile candidate,53.84872471416007,25,17,0,8,
+3355b542,F du Plessis,Delhi Capitals,BAT,2025 profile candidate,52.625409165302784,2,2,0,0,
+b17e2f24,KL Rahul,Delhi Capitals,BAT,2025 profile candidate,51.186181434599156,142,120,0,22,
+3d284ca3,PD Salt,Royal Challengers Bengaluru,WK,2025 profile candidate,50.38337801608579,51,51,0,0,
+c740ea83,RM Patidar,Royal Challengers Bengaluru,BAT,2025 profile candidate,50.01815823605707,36,28,0,8,
+85b3fab2,T Stubbs,Delhi Capitals,WK,2025 profile candidate,46.80668756530825,48,48,0,0,
+9b6e1b3f,J Fraser-McGurk,Delhi Capitals,BAT,2025 profile candidate,46.80668756530825,8,8,0,0,
+8d2c70ad,Kuldeep Yadav,Delhi Capitals,BOWL,2025 profile candidate,45.19,50,0,50,0,
+50c6bc2b,LS Livingstone,Royal Challengers Bengaluru,AR,2025 profile candidate,44.86036805160311,4,4,0,0,
+ad3b6e95,Abishek Porel,Delhi Capitals,WK,2025 profile candidate,44.23727996141789,8,8,0,0,

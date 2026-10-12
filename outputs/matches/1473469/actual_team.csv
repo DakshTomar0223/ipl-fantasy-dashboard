@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+6c19c6e5,YBK Jaiswal,Rajasthan Royals,BAT,2025 profile candidate,51.353092049016816,78,70,0,8,
+2e171977,AR Patel,Delhi Capitals,AR,2025 profile candidate,44.30717948717949,77,46,25,6,
+fb2d1dda,N Rana,Rajasthan Royals,BAT,2025 profile candidate,42.94262776581163,69,69,0,0,
+ad3b6e95,Abishek Porel,Delhi Capitals,WK,2025 profile candidate,44.23727996141789,60,60,0,0,
+b17e2f24,KL Rahul,Delhi Capitals,BAT,2025 profile candidate,52.17377812257564,54,48,0,6,
+5574750c,JC Archer,Rajasthan Royals,BOWL,2025 profile candidate,34.41192660550459,50,0,50,0,
+85b3fab2,T Stubbs,Delhi Capitals,WK,2025 profile candidate,45.245181187355435,44,44,0,0,
+a4cc73aa,SV Samson,Rajasthan Royals,WK,2025 profile candidate,43.6513671875,43,43,0,0,
+bcf325d2,Dhruv Jurel,Rajasthan Royals,WK,2025 profile candidate,42.94262776581163,38,30,0,8,
+3fb19989,MA Starc,Delhi Capitals,BOWL,2025 profile candidate,39.37547892720306,33,0,25,8,
+a97c8ec2,PWH de Silva,Rajasthan Royals,AR,2025 profile candidate,37.488074117878966,31,0,25,6,

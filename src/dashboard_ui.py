@@ -573,12 +573,10 @@ def match_page(service):
         with st.expander("Earlier team form and head-to-head evidence"):
             st.json(win.get("evidence", {}))
 
-    
     with evidence:
         players = report.get("player_explanations", [])
 
         if players:
-            # 1. Display the player evidence table
             columns = [
                 "player",
                 "role",
@@ -589,109 +587,92 @@ def match_page(service):
                 "previous_opponent_points",
                 "specialty_from_previous_matches",
             ]
-
             available_columns = [
-                column for column in columns
-                if column in players[0]
+                column for column in columns if column in players[0]
             ]
-
             st.dataframe(
                 pd.DataFrame(players)[available_columns],
                 hide_index=True,
                 width="stretch",
             )
 
-            # 2. Let the user select a player
             player_names = {
-                player["player_id"]: player["player"]
-                for player in players
+                player["player_id"]: player["player"] for player in players
             }
-
             chosen = st.selectbox(
                 "Inspect a selected player",
                 list(player_names),
                 format_func=player_names.get,
                 key="inspect_player",
             )
-
             player = next(
-                item for item in players
-                if item["player_id"] == chosen
+                item for item in players if item["player_id"] == chosen
             )
 
-            # 3. Display the selected player's performance metrics
-            st.subheader(f"Player details: {player['player']}")
-
-            a, b, c = st.columns(3)
-
-            a.metric(
-                "Previous appearance",
-                fmt(player.get("last_fantasy_points"), 1),
+            inspect_tab, genai_tab = st.tabs(
+                ["Inspect player", "🤖 GenAI explanation"]
             )
 
-            b.metric(
-                "Previous five average",
-                fmt(player.get("last_5_average"), 1),
-            )
+            with inspect_tab:
+                a, b, c = st.columns(3)
+                a.metric(
+                    "Previous appearance",
+                    fmt(player.get("last_fantasy_points"), 1),
+                )
+                b.metric(
+                    "Previous five average",
+                    fmt(player.get("last_5_average"), 1),
+                )
+                c.metric(
+                    "Previous ten average",
+                    fmt(player.get("last_10_average"), 1),
+                )
 
-            c.metric(
-                "Previous ten average",
-                fmt(player.get("last_10_average"), 1),
-            )
+                with st.expander("Inspect model feature sensitivities"):
+                    sensitivities = player.get("sensitivities", [])
+                    if sensitivities:
+                        st.dataframe(
+                            pd.DataFrame(sensitivities),
+                            hide_index=True,
+                        )
+                    else:
+                        st.info("No feature sensitivities available.")
 
-            # 4. Display feature sensitivities
-            with st.expander("Inspect model feature sensitivities"):
-                sensitivities = player.get("sensitivities", [])
+            with genai_tab:
+                st.subheader(
+                    f"AI selection insight: {player['player']}"
+                )
+                st.caption(
+                    "Generate an explanation using Gemini 3.5 Flash-Lite."
+                )
 
-                if sensitivities:
-                    st.dataframe(
-                        pd.DataFrame(sensitivities),
-                        hide_index=True,
-                    )
-                else:
-                    st.info("No feature sensitivities available.")
-
-            # 5. GenAI explanation section
-            st.divider()
-            st.subheader("🤖 GenAI explanation")
-
-            st.caption(
-                "Generate an AI explanation for the selected player "
-                "using your Hugging Face model."
-            )
-
-            if st.button(
-                "Generate AI explanation",
-                type="primary",
-                key=f"genai_{chosen}",
-            ):
-                try:
-                    with st.spinner("Generating AI explanation..."):
-                        explanation_text = (
-                            generate_player_text_explanation(
+                if st.button(
+                    "Generate AI explanation",
+                    type="primary",
+                    key=f"genai_{chosen}",
+                ):
+                    try:
+                        with st.spinner(
+                            "Generating explanation with Gemini..."
+                        ):
+                            explanation_text = generate_player_text_explanation(
                                 player_data=player,
                                 match_context=report.get("match", {}),
                             )
-                        )
 
-                    if explanation_text:
-                        st.markdown(explanation_text)
-                    else:
-                        st.warning(
-                            "The model returned an empty explanation."
-                        )
-
-                except Exception as exc:
-                    st.error(
-                        f"GenAI explanation failed: {exc}"
-                    )
-
+                        if explanation_text:
+                            st.markdown(explanation_text)
+                        else:
+                            st.warning(
+                                "The model returned an empty explanation."
+                            )
+                    except Exception as exc:
+                        st.error(f"GenAI explanation failed: {exc}")
         else:
             st.warning(
                 "No player evidence available for this match. "
                 "Generate a match report first."
             )
-
 
     with diagnostics:
         candidates = pd.DataFrame(report["player_predictions"])

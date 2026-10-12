@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+57ee1fde,YS Chahal,Punjab Kings,BOWL,2025 profile candidate,36.65640307907628,108,0,108,0,
+77b1aa15,Harshit Rana,Kolkata Knight Riders,BOWL,2025 profile candidate,41.92183560262229,82,3,79,0,
+81c36ee9,M Jansen,Punjab Kings,AR,2025 profile candidate,37.600853282768426,80,1,79,0,
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,52.2220584293755,56,6,50,0,
+5b7ab5a9,CV Varun,Kolkata Knight Riders,BOWL,2025 profile candidate,38.036842105263155,50,0,50,0,
+3b53243a,XC Bartlett,Punjab Kings,BOWL,2025 profile candidate,37.600853282768426,45,12,25,8,
+9418198b,P Simran Singh,Punjab Kings,WK,2025 profile candidate,42.94262776581163,42,42,0,0,
+244048f6,Arshdeep Singh,Punjab Kings,BOWL,2025 profile candidate,37.33963155408597,38,1,37,0,
+b681e71e,GJ Maxwell,Punjab Kings,AR,2025 profile candidate,34.352666666666664,33,8,25,0,
+7c3b3b78,VG Arora,Kolkata Knight Riders,BOWL,2025 profile candidate,34.65333115610712,31,0,25,6,
+be24ead0,Ramandeep Singh,Kolkata Knight Riders,BAT,2025 profile candidate,28.07082066869301,22,-2,0,24,

@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+b17e2f24,KL Rahul,Delhi Capitals,BAT,2025 profile candidate,52.17377812257564,54,48,0,6,
+6c19c6e5,YBK Jaiswal,Rajasthan Royals,BAT,2025 profile candidate,51.353092049016816,78,70,0,8,
+04a418e8,R Parag,Rajasthan Royals,BAT,2025 profile candidate,49.808278371617014,17,9,0,8,
+85b3fab2,T Stubbs,Delhi Capitals,WK,2025 profile candidate,45.245181187355435,44,44,0,0,
+2e171977,AR Patel,Delhi Capitals,AR,2025 profile candidate,44.30717948717949,77,46,25,6,
+ad3b6e95,Abishek Porel,Delhi Capitals,WK,2025 profile candidate,44.23727996141789,60,60,0,0,
+a4cc73aa,SV Samson,Rajasthan Royals,WK,2025 profile candidate,43.6513671875,43,43,0,0,
+bcf325d2,Dhruv Jurel,Rajasthan Royals,WK,2025 profile candidate,42.94262776581163,38,30,0,8,
+fb2d1dda,N Rana,Rajasthan Royals,BAT,2025 profile candidate,42.94262776581163,69,69,0,0,
+48a1d7b7,SO Hetmyer,Rajasthan Royals,BAT,2025 profile candidate,42.3009904992925,24,16,0,8,
+8d2c70ad,Kuldeep Yadav,Delhi Capitals,BOWL,2025 profile candidate,41.20974576271186,25,0,25,0,

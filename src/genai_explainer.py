@@ -1,58 +1,38 @@
+"""Gemini-powered player explanation helper for the IPL Fantasy Dashboard."""
 
+import json
 import os
+from typing import Any
+
 import streamlit as st
-from huggingface_hub import InferenceClient
-
-DEFAULT_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+from google import genai
 
 
-def _build_prompt_context(
-    player_data: dict,
-    match_context: dict,
-) -> str:
-    """Format player evidence into readable context."""
+# Model used for concise player-form and fantasy-selection explanations.
+DEFAULT_MODEL = "gemini-3.5-flash-lite"
 
-    sensitivities = player_data.get("sensitivities", [])
-    sensitivity_str = ""
 
-    if sensitivities:
-        top_features = [
-            (
-                f"- {item['feature']}: {item['value']} "
-                f"(Impact on score: "
-                f"{item['prediction_difference']:+.2f} pts vs median)"
-            )
-            for item in sensitivities[:3]
-        ]
-        sensitivity_str = "\n".join(top_features)
+def _build_prompt_context(player_data: dict, match_context: dict) -> str:
+    """Serialize player and match data safely for the model prompt."""
+    return json.dumps(
+        {"player": player_data or {}, "match": match_context or {}},
+        indent=2,
+        default=str,
+        ensure_ascii=False,
+    )
 
-    match_str = ""
 
-    if match_context:
-        teams = " vs ".join(match_context.get("teams", []))
-        match_str = (
-            f"Match: {teams} | "
-            f"Venue: {match_context.get('venue', 'N/A')} | "
-            f"Date: {match_context.get('date', 'N/A')}"
-        )
+def _get_api_key() -> str:
+    """Read the Gemini key from Streamlit Secrets, then environment."""
+    try:
+        api_key = st.secrets.get("HF_TOKEN", "")
+    except Exception:
+        api_key = ""
 
-    return f"""
-Match Info:
-{match_str}
-
-Player Details:
-- Name: {player_data.get('player', 'Unknown')}
-- Role: {player_data.get('role', 'N/A')}
-- Team: {player_data.get('team', 'N/A')}
-- Model Predicted Fantasy Points: {player_data.get('predicted_points', 'N/A')}
-- Last match points: {player_data.get('last_fantasy_points', 'N/A')}
-- Previous 5-match average: {player_data.get('last_5_average', 'N/A')}
-- Previous 10-match average: {player_data.get('last_10_average', 'N/A')}
-- Points against this opponent: {player_data.get('previous_opponent_points', 'N/A')}
-
-Key Model Drivers:
-{sensitivity_str if sensitivity_str else 'N/A'}
-"""
+    # Keep HF_TOKEN as the configured secret name for compatibility with
+    # the user's existing Streamlit setup. Its VALUE must be a Gemini API key.
+    api_key = api_key or os.getenv("HF_TOKEN", "")
+    return api_key.strip() if api_key else ""
 
 
 def generate_player_text_explanation(
@@ -60,87 +40,63 @@ def generate_player_text_explanation(
     match_context: dict = None,
     hf_token: str = None,
 ) -> str:
-    """Generate a player explanation using Hugging Face."""
+    """Generate a short, evidence-grounded explanation using Gemini.
 
-    token = hf_token
-
-    if not token:
-        token = os.getenv("HF_TOKEN")
-
-    if not token:
-        try:
-            token = st.secrets.get("HF_TOKEN", "")
-        except Exception:
-            token = ""
-
-    token = token.strip() if token else ""
-
-    if not token:
+    The hf_token parameter remains for compatibility with the existing UI,
+    but the key is read from HF_TOKEN Secrets/environment to avoid passing
+    credentials through UI calls.
+    """
+    api_key = _get_api_key()
+    if not api_key:
         return (
-            "HF_TOKEN is missing. Add it to "
-            "Streamlit Cloud → App settings → Secrets."
+            "Gemini API key is missing. Add HF_TOKEN to Streamlit Cloud "
+            "Secrets, using a Gemini API key as its value."
         )
 
-    if not token.startswith("hf_"):
-        return (
-            "HF_TOKEN does not look like a Hugging Face access token. "
-            "Check that you entered the actual token value."
-        )
+    context = _build_prompt_context(player_data, match_context or {})
+    prompt = f"""You are an IPL fantasy-cricket analyst.
+
+Explain the player's fantasy-selection evidence for the specified match.
+Use only facts present in the supplied data. Do not invent statistics,
+injuries, pitch conditions, player availability, or match facts. If a useful
+field is missing, say that it is unavailable. In 3-5 concise sentences,
+discuss recent form, role, opportunity, upside, and risk only where supported
+by the data. End with a brief selection takeaway. Do not guarantee future
+performance or fantasy points.
+
+PLAYER AND MATCH DATA:
+{context}
+"""
 
     try:
-        client = InferenceClient(
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
             model=DEFAULT_MODEL,
-            token=token,
+            contents=prompt,
         )
+        text = (response.text or "").strip()
+        if not text:
+            return "Gemini returned an empty explanation. Please try again."
+        return text
 
-        formatted_context = _build_prompt_context(
-            player_data,
-            match_context or {},
-        )
+    except Exception as exc:
+        message = str(exc)
+        lowered = message.lower()
 
-        messages = [
-            {
-                "role": "system",
-                "content": (
-                    "You are a cricket fantasy analyst. Explain in "
-                    "2 to 3 concise sentences why the player was "
-                    "selected. Focus on recent form, role and opponent "
-                    "history. Do not use technical jargon. Do not invent "
-                    "facts not present in the supplied data."
-                ),
-            },
-            {
-                "role": "user",
-                "content": (
-                    "Explain this player's selection using the data:\n"
-                    f"{formatted_context}"
-                ),
-            },
-        ]
-
-        response = client.chat_completion(
-            messages=messages,
-            max_tokens=150,
-            temperature=0.6,
-        )
-
-        explanation = response.choices[0].message.content
-
-        if not explanation:
-            return "The model returned an empty explanation."
-
-        return explanation.strip()
-
-    except Exception as e:
-        error = str(e)
-
-        if "401" in error or "Unauthorized" in error:
+        if any(term in lowered for term in ("api key not valid", "unauthenticated", "401", "invalid api key")):
             return (
-                "Hugging Face authentication failed (401). Check that "
-                "Streamlit Cloud Secrets contains the current, valid "
-                "HF_TOKEN with permission to call Inference Providers. "
-                "If the token is correct, verify that it has not expired "
-                "or been revoked."
+                "Gemini authentication failed. Check that HF_TOKEN in "
+                "Streamlit Secrets contains a valid Gemini API key from Google AI Studio."
             )
-
-        return f"Error generating explanation: {error}"
+        if "429" in lowered or "resource_exhausted" in lowered or "quota" in lowered:
+            return (
+                "Gemini API quota or rate limit reached. Wait and try again, "
+                "or check the limits for your Google AI Studio project."
+            )
+        if "not found" in lowered and "model" in lowered:
+            return (
+                f"Gemini model '{DEFAULT_MODEL}' is unavailable for this API key. "
+                "Check the current model list in Google AI Studio."
+            )
+        # Do not include the API key in the returned error message.
+        return f"Could not generate the Gemini explanation: {message[:500]}"
