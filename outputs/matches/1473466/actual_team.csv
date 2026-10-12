@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+944533a5,KK Nair,Delhi Capitals,BAT,2025 profile candidate,28.0,119,119,0,0,
+119678fd,KV Sharma,Mumbai Indians,BOWL,2025 profile candidate,35.23181049069374,87,0,79,8,
+b0482a1d,Tilak Varma,Mumbai Indians,AR,2025 profile candidate,47.70840787119857,79,79,0,0,
+e66732f8,RD Rickelton,Mumbai Indians,WK,2025 profile candidate,43.141698113207546,78,54,0,24,
+271f83cd,SA Yadav,Mumbai Indians,BAT,2025 profile candidate,52.2220584293755,61,53,0,8,
+e4a0deae,MJ Santner,Mumbai Indians,AR,2025 profile candidate,32.04597156398104,56,0,50,6,
+8d2c70ad,Kuldeep Yadav,Delhi Capitals,BOWL,2025 profile candidate,41.20974576271186,51,1,50,0,
+ad3b6e95,Abishek Porel,Delhi Capitals,WK,2025 profile candidate,42.87789509536785,50,42,0,8,
+23eeb873,DL Chahar,Mumbai Indians,BOWL,2025 profile candidate,34.46742378959952,25,0,25,0,
+2cffab74,Mukesh Kumar,Delhi Capitals,BOWL,2025 profile candidate,37.268021152240465,25,0,25,0,
+462411b3,JJ Bumrah,Mumbai Indians,BOWL,2025 profile candidate,38.55552984729292,25,0,25,0,

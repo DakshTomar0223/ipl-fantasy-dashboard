@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,55.04171406901782,86,78,0,8,
+a4cc73aa,SV Samson,Rajasthan Royals,WK,2025 profile candidate,53.47041420118343,16,16,0,0,
+04a418e8,R Parag,Rajasthan Royals,BAT,2025 profile candidate,50.32006745362563,39,39,0,0,
+3d284ca3,PD Salt,Royal Challengers Bengaluru,WK,2025 profile candidate,50.01815823605707,90,90,0,0,
+c740ea83,RM Patidar,Royal Challengers Bengaluru,BAT,2025 profile candidate,48.98325991189427,0,0,0,0,
+50c6bc2b,LS Livingstone,Royal Challengers Bengaluru,AR,2025 profile candidate,44.86036805160311,0,0,0,0,
+fb2d1dda,N Rana,Rajasthan Royals,BAT,2025 profile candidate,43.141698113207546,5,5,0,0,
+6c19c6e5,YBK Jaiswal,Rajasthan Royals,BAT,2025 profile candidate,42.94262776581163,105,97,0,8,
+800d2d97,JM Sharma,Royal Challengers Bengaluru,WK,2025 profile candidate,42.94262776581163,12,0,0,12,
+bcf325d2,Dhruv Jurel,Rajasthan Royals,WK,2025 profile candidate,42.94262776581163,45,45,0,0,
+46a9bea1,TU Deshpande,Rajasthan Royals,BOWL,2025 profile candidate,39.36280661722761,0,0,0,0,

@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+dcce6f09,DA Warner,Sunrisers Hyderabad,BAT,2025 profile candidate,54.41684541684542,64,64,0,0,
+abb83e27,JM Bairstow,Sunrisers Hyderabad,WK,2025 profile candidate,53.752680965147455,76,52,0,24,
+919a3be2,RR Pant,Delhi Capitals,WK,2025 profile candidate,51.95405866832221,34,26,0,8,
+d027ba9f,KS Williamson,Sunrisers Hyderabad,BAT,2025 profile candidate,48.560550233357894,3,3,0,0,
+0a476045,S Dhawan,Delhi Capitals,BAT,2025 profile candidate,47.92777085927771,8,8,0,0,
+0994d0ae,V Shankar,Sunrisers Hyderabad,AR,2025 profile candidate,44.02773333333333,1,1,0,0,
+f29185a1,Abhishek Sharma,Sunrisers Hyderabad,AR,2025 profile candidate,44.02773333333333,27,2,25,0,
+85ec8e33,SS Iyer,Delhi Capitals,BAT,2025 profile candidate,43.72196325747189,62,54,0,8,
+b63e358a,RK Bhui,Sunrisers Hyderabad,BAT,2025 profile candidate,40.851851851851855,7,7,0,0,
+fb66ce1f,CH Morris,Delhi Capitals,AR,2025 profile candidate,39.541441883276114,83,4,79,0,
+a2f46292,KK Ahmed,Sunrisers Hyderabad,BOWL,2025 profile candidate,39.19318181818182,79,0,79,0,
