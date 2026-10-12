@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+abb83e27,JM Bairstow,Sunrisers Hyderabad,WK,2025 profile candidate,53.4025974025974,86,78,0,8,
+3355b542,F du Plessis,Chennai Super Kings,BAT,2025 profile candidate,45.8483765729377,74,58,0,16,
+dcce6f09,DA Warner,Sunrisers Hyderabad,BAT,2025 profile candidate,55.52804377564979,68,68,0,0,
+acee4cc4,Imran Tahir,Chennai Super Kings,BOWL,2025 profile candidate,36.71244157578455,58,0,50,8,
+5f547c8b,Rashid Khan,Sunrisers Hyderabad,AR,2025 profile candidate,36.87648054145516,50,0,50,0,
+0994d0ae,V Shankar,Sunrisers Hyderabad,AR,2025 profile candidate,44.93009478672986,40,7,25,8,
+4329fbb5,SR Watson,Chennai Super Kings,AR,2025 profile candidate,44.93009478672986,39,39,0,0,
+70d205c9,AT Rayudu,Chennai Super Kings,BAT,2025 profile candidate,37.1764705882353,27,27,0,0,
+119678fd,KV Sharma,Chennai Super Kings,BOWL,2025 profile candidate,35.801690507152145,25,0,25,0,
+23eeb873,DL Chahar,Chennai Super Kings,BOWL,2025 profile candidate,37.63788140472078,25,0,25,0,
+a2f46292,KK Ahmed,Sunrisers Hyderabad,BOWL,2025 profile candidate,37.72063824221815,25,0,25,0,

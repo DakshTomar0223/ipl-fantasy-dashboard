@@ -1,0 +1,26 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+08548b13,PHKD Mendis,Sunrisers Hyderabad,AR,2025 profile candidate,37.600853282768426,57,32,25,0,
+0a509d6b,RK Singh,Kolkata Knight Riders,BAT,2025 profile candidate,29.837341495408833,42,42,0,0,
+12b610c2,TM Head,Sunrisers Hyderabad,BAT,2025 profile candidate,47.00814332247557,5,5,0,0,
+235c2bb6,H Klaasen,Sunrisers Hyderabad,WK,2025 profile candidate,44.30717948717949,65,43,0,22,
+29e95537,AM Rahane,Kolkata Knight Riders,BAT,2025 profile candidate,40.65904761904762,59,51,0,8,
+30df8c66,Simarjeet Singh,Sunrisers Hyderabad,BOWL,2025 profile candidate,36.63371266002845,0,0,0,0,
+36619795,Zeeshan Ansari,Sunrisers Hyderabad,UNKNOWN,unavailable,39.31849315068493,33,0,25,8,role_unknown
+372455c4,Q de Kock,Kolkata Knight Riders,WK,2025 profile candidate,42.60922541340296,1,1,0,0,
+5b7ab5a9,CV Varun,Kolkata Knight Riders,BOWL,2025 profile candidate,37.79187817258883,79,0,79,0,
+752f7486,Ishan Kishan,Sunrisers Hyderabad,WK,2025 profile candidate,44.841642228739005,2,2,0,0,
+77b1aa15,Harshit Rana,Kolkata Knight Riders,BOWL,2025 profile candidate,39.19010669253152,41,0,25,16,
+7c3b3b78,VG Arora,Kolkata Knight Riders,BOWL,2025 profile candidate,34.352666666666664,91,0,91,0,
+8cf9814c,Mohammed Shami,Sunrisers Hyderabad,BOWL,2025 profile candidate,37.381956649091975,27,2,25,0,
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,56.27910052910053,42,9,25,8,
+a24be938,VR Iyer,Kolkata Knight Riders,AR,2025 profile candidate,43.86216784553623,97,81,0,16,
+a3b0600d,Aniket Verma,Sunrisers Hyderabad,UNKNOWN,unavailable,49.4455190199871,15,7,0,8,role_unknown
+aad0c365,Nithish Kumar Reddy,Sunrisers Hyderabad,AR,2025 profile candidate,42.87789509536785,23,23,0,0,
+bb351c23,MM Ali,Kolkata Knight Riders,AR,2025 profile candidate,45.291242676534075,8,0,0,8,
+bbd41817,AD Russell,Kolkata Knight Riders,AR,2025 profile candidate,41.96738597351643,59,1,50,8,
+be24ead0,Ramandeep Singh,Kolkata Knight Riders,BAT,2025 profile candidate,29.837341495408833,0,0,0,0,
+d7017798,A Raghuvanshi,Kolkata Knight Riders,UNKNOWN,unavailable,38.73684210526316,67,67,0,0,role_unknown
+ded9240e,PJ Cummins,Sunrisers Hyderabad,BOWL,2025 profile candidate,45.98845598845599,41,16,25,0,
+e4cdf230,AS Roy,Kolkata Knight Riders,AR,2025 profile candidate,32.06670074111935,8,0,0,8,fielder_not_in_initial_roster
+f29185a1,Abhishek Sharma,Sunrisers Hyderabad,AR,2025 profile candidate,39.90906892382104,2,2,0,0,
+f986ca1a,HV Patel,Sunrisers Hyderabad,BOWL,2025 profile candidate,46.785714285714285,36,3,25,8,

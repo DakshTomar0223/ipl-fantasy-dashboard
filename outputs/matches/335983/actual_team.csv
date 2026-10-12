@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+48fd7349,MEK Hussey,Chennai Super Kings,BAT,2025 profile candidate,32.90909090909091,158,158,0,0,
+2498e163,JR Hopes,Punjab Kings,AR,2025 profile candidate,32.90909090909091,120,95,25,0,
+6b71e6cf,KC Sangakkara,Punjab Kings,WK,2025 profile candidate,32.90909090909091,79,71,0,8,
+5fa06777,IK Pathan,Punjab Kings,AR,2025 profile candidate,32.90909090909091,61,3,50,8,
+1dc12ab9,SK Raina,Chennai Super Kings,BAT,2025 profile candidate,32.90909090909091,44,44,0,0,
+3576e47e,S Badrinath,Chennai Super Kings,BAT,2025 profile candidate,32.90909090909091,42,42,0,0,
+9f961c14,Joginder Sharma,Chennai Super Kings,AR,2025 profile candidate,32.90909090909091,41,0,25,16,
+d8699ab7,ML Hayden,Chennai Super Kings,BAT,2025 profile candidate,32.90909090909091,31,31,0,0,
+1c914163,Yuvraj Singh,Punjab Kings,BAT,2025 profile candidate,32.90909090909091,28,28,0,0,
+a1f1829d,K Goel,Punjab Kings,BAT,2025 profile candidate,32.90909090909091,28,28,0,0,
+dd09ff8e,B Lee,Punjab Kings,BOWL,2025 profile candidate,32.90909090909091,25,0,25,0,

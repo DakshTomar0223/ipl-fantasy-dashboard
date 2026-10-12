@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+99b75528,JC Buttler,Gujarat Titans,WK,2025 profile candidate,50.55537459283388,106,98,0,8,
+50c6bc2b,LS Livingstone,Royal Challengers Bengaluru,AR,2025 profile candidate,36.83528935653582,81,73,0,8,
+2f49c897,Mohammed Siraj,Gujarat Titans,BOWL,2025 profile candidate,37.268021152240465,79,0,79,0,
+d5130a30,B Sai Sudharsan,Gujarat Titans,BAT,2025 profile candidate,52.19547657512116,62,62,0,0,
+c7a995d3,R Sai Kishore,Gujarat Titans,BOWL,2025 profile candidate,38.569160547727726,58,0,50,8,
+800d2d97,JM Sharma,Royal Challengers Bengaluru,WK,2025 profile candidate,33.76292335115865,52,44,0,8,
+f1f99156,TH David,Royal Challengers Bengaluru,BAT,2025 profile candidate,31.140900649953576,43,43,0,0,
+d014d5ac,SE Rutherford,Gujarat Titans,BAT,2025 profile candidate,37.91825095057034,41,41,0,0,
+85e0cf10,M Prasidh Krishna,Gujarat Titans,BOWL,2025 profile candidate,35.337516512549534,33,0,25,8,
+2e81a32d,B Kumar,Royal Challengers Bengaluru,BOWL,2025 profile candidate,34.93353705118411,26,1,25,0,
+12314277,Arshad Khan,Gujarat Titans,BOWL,2025 profile candidate,44.841642228739005,25,0,25,0,

@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+c4487b84,AB de Villiers,Royal Challengers Bengaluru,WK,2025 profile candidate,46.88457502623295,125,109,0,16,shared_over_maiden_review
+ba607b88,V Kohli,Royal Challengers Bengaluru,BAT,2025 profile candidate,43.933317108785594,96,96,0,0,shared_over_maiden_review
+dcce6f09,DA Warner,Sunrisers Hyderabad,BAT,2025 profile candidate,49.920803782505914,80,80,0,0,shared_over_maiden_review
+4329fbb5,SR Watson,Royal Challengers Bengaluru,AR,2025 profile candidate,53.89945945945946,75,25,50,0,shared_over_maiden_review
+0a8fce53,Mustafizur Rahman,Sunrisers Hyderabad,BOWL,2025 profile candidate,44.0260663507109,50,0,50,0,shared_over_maiden_review
+2e81a32d,B Kumar,Sunrisers Hyderabad,BOWL,2025 profile candidate,36.09161290322581,50,0,50,0,shared_over_maiden_review
+57ee1fde,YS Chahal,Royal Challengers Bengaluru,BOWL,2025 profile candidate,36.140810276679844,50,0,50,0,shared_over_maiden_review
+f088b960,SN Khan,Royal Challengers Bengaluru,BAT,2025 profile candidate,24.440481128162588,48,48,0,0,shared_over_maiden_review
+1c2a64cd,A Ashish Reddy,Sunrisers Hyderabad,AR,2025 profile candidate,32.373891001267424,44,44,0,0,shared_over_maiden_review
+350bb1b1,AF Milne,Royal Challengers Bengaluru,BOWL,2025 profile candidate,44.0260663507109,33,0,25,8,shared_over_maiden_review
+9170ff49,Parvez Rasool,Royal Challengers Bengaluru,AR,2025 profile candidate,29.66826923076923,33,0,25,8,shared_over_maiden_review

@@ -3,6 +3,10 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 
 DEFAULT_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+client = InferenceClient(
+    model="Qwen/Qwen2.5-7B-Instruct",
+    token=st.secrets["HF_TOKEN"],
+)
 def _build_prompt_context(player_data: dict, match_context: dict) -> str:
     """Formats player evidence metrics and model sensitivities into readable context."""
     sensitivities = player_data.get("sensitivities", [])

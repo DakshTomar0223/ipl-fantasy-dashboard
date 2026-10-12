@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+dbe50b21,HH Pandya,Mumbai Indians,AR,2025 profile candidate,49.094919786096256,85,44,25,16,unresolved_fielding_event
+2ed569a0,RD Chahar,Mumbai Indians,BOWL,2025 profile candidate,31.086117809162936,79,0,79,0,unresolved_fielding_event
+5b8c830e,KH Pandya,Mumbai Indians,AR,2025 profile candidate,46.4589422407794,71,46,25,0,unresolved_fielding_event
+e62dd25d,K Rabada,Delhi Capitals,BOWL,2025 profile candidate,39.16343490304709,61,11,50,0,unresolved_fielding_event
+2e171977,AR Patel,Delhi Capitals,AR,2025 profile candidate,33.07012622720897,54,29,25,0,unresolved_fielding_event
+462411b3,JJ Bumrah,Mumbai Indians,BOWL,2025 profile candidate,36.8352144469526,50,0,50,0,unresolved_fielding_event
+0a476045,S Dhawan,Delhi Capitals,BAT,2025 profile candidate,47.2382820565765,46,46,0,0,unresolved_fielding_event
+372455c4,Q de Kock,Mumbai Indians,WK,2025 profile candidate,46.79278587874136,45,45,0,0,unresolved_fielding_event
+740742ef,RG Sharma,Mumbai Indians,BAT,2025 profile candidate,41.02928870292887,39,39,0,0,unresolved_fielding_event
+6b19d823,A Mishra,Delhi Capitals,BOWL,2025 profile candidate,36.8352144469526,31,6,25,0,unresolved_fielding_event
+271f83cd,SA Yadav,Mumbai Indians,BAT,2025 profile candidate,44.87584130357775,28,28,0,0,unresolved_fielding_event
