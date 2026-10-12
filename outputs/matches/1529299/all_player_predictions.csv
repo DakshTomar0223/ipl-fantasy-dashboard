@@ -1,0 +1,25 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+0f721006,JO Holder,Gujarat Titans,AR,2025 profile candidate,45.245181187355435,90,11,79,0,
+12314277,Arshad Khan,Gujarat Titans,BOWL,2025 profile candidate,36.21910981268259,0,0,0,0,
+12b610c2,TM Head,Sunrisers Hyderabad,BAT,2025 profile candidate,50.57330924109448,-2,-2,0,0,
+235c2bb6,H Klaasen,Sunrisers Hyderabad,WK,2025 profile candidate,53.84872471416007,32,16,0,16,
+280fff14,Sakib Hussain,Sunrisers Hyderabad,UNKNOWN,unavailable,36.89196822594881,50,0,50,0,role_unknown
+2f49c897,Mohammed Siraj,Gujarat Titans,BOWL,2025 profile candidate,36.89196822594881,45,0,37,8,
+39a2dfa8,R Tewatia,Gujarat Titans,AR,2025 profile candidate,29.542234332425068,5,5,0,0,
+3cea23da,N Sindhu,Gujarat Titans,AR,2025 profile candidate,30.828862863619193,35,27,0,8,
+5750bcb4,E Malinga,Sunrisers Hyderabad,UNKNOWN,unavailable,37.268021152240465,-2,-2,0,0,role_unknown
+5f547c8b,Rashid Khan,Gujarat Titans,AR,2025 profile candidate,40.25321701199564,25,0,25,0,
+752f7486,Ishan Kishan,Sunrisers Hyderabad,WK,2025 profile candidate,52.2220584293755,30,14,0,16,
+7b44eb3e,Shivang Kumar,Sunrisers Hyderabad,UNKNOWN,unavailable,35.85089379600421,4,4,0,0,role_unknown
+85e0cf10,M Prasidh Krishna,Gujarat Titans,BOWL,2025 profile candidate,37.993483709273185,50,0,50,0,
+99b75528,JC Buttler,Gujarat Titans,WK,2025 profile candidate,54.51482923906531,52,8,0,44,
+aad0c365,Nithish Kumar Reddy,Sunrisers Hyderabad,AR,2025 profile candidate,50.57330924109448,2,2,0,0,
+b4b99816,Shubman Gill,Gujarat Titans,BAT,2025 profile candidate,60.77186963979417,14,6,0,8,
+c1e53c3f,R Smaran,Sunrisers Hyderabad,UNKNOWN,unavailable,29.915411727010575,10,10,0,0,role_unknown
+d5130a30,B Sai Sudharsan,Gujarat Titans,BAT,2025 profile candidate,56.79824801532987,78,78,0,0,
+d7423da1,S Arora,Sunrisers Hyderabad,UNKNOWN,unavailable,31.941717150616252,19,19,0,0,role_unknown
+ded9240e,PJ Cummins,Sunrisers Hyderabad,BOWL,2025 profile candidate,38.569160547727726,49,24,25,0,
+e62dd25d,K Rabada,Gujarat Titans,BOWL,2025 profile candidate,41.96738597351643,79,0,79,0,
+ece7b6b3,PP Hinge,Sunrisers Hyderabad,UNKNOWN,unavailable,38.15500538213132,61,3,50,8,role_unknown
+f19ccfad,Washington Sundar,Gujarat Titans,AR,2025 profile candidate,42.94262776581163,75,67,0,8,
+f29185a1,Abhishek Sharma,Sunrisers Hyderabad,AR,2025 profile candidate,54.74022346368715,8,8,0,0,

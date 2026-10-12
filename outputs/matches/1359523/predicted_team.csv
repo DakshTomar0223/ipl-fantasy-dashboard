@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+df5a6881,DP Conway,Chennai Super Kings,WK,2025 profile candidate,54.51263902932255,52,52,0,0,
+eaa76d3c,C Green,Mumbai Indians,AR,2025 profile candidate,51.67298321602599,7,7,0,0,
+45a43fe2,RD Gaikwad,Chennai Super Kings,BAT,2025 profile candidate,49.972972972972975,58,42,0,16,
+752f7486,Ishan Kishan,Mumbai Indians,WK,2025 profile candidate,49.20544701006513,16,8,0,8,
+bb351c23,MM Ali,Chennai Super Kings,AR,2025 profile candidate,48.183644528480265,0,0,0,0,
+fe93fd9d,RA Jadeja,Chennai Super Kings,AR,2025 profile candidate,45.85367391989909,41,0,25,16,
+271f83cd,SA Yadav,Mumbai Indians,BAT,2025 profile candidate,45.0757758968158,29,29,0,0,
+29e95537,AM Rahane,Chennai Super Kings,BAT,2025 profile candidate,45.0757758968158,24,24,0,0,
+a4e37e47,S Dube,Chennai Super Kings,AR,2025 profile candidate,43.7981773727495,32,32,0,0,
+f1f99156,TH David,Mumbai Indians,BAT,2025 profile candidate,43.22872218398715,2,2,0,0,
+266849c1,R Goyal,Mumbai Indians,BOWL,2025 profile candidate,41.87954716981132,8,0,0,8,
