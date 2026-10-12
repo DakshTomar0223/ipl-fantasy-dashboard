@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from .genai_explainer import generate_player_text_explanation
 import streamlit as st
 
 from .ui_backend import FantasyService, ROOT, parse_date
@@ -280,20 +281,25 @@ def match_page(service):
             a.metric("Previous appearance", fmt(player["last_fantasy_points"], 1))
             b.metric("Previous five average", fmt(player["last_5_average"], 1))
             c.metric("Previous ten average", fmt(player["last_10_average"], 1))
-            history = pd.DataFrame(player["history"])
-            if len(history):
-                fig = px.line(history, x="date", y="total_fantasy_points", markers=True, title=f"{player['player']} · earlier appearances", color_discrete_sequence=COLORS)
-                fig.add_hline(y=player["predicted_points"], line_dash="dash", annotation_text="Current prediction")
-                chart(fig, "match_player_history")
-            if player["feature_sensitivity"]:
-                sensitivity = pd.DataFrame(player["feature_sensitivity"])
-                chart(px.bar(sensitivity, x="prediction_difference", y="feature", orientation="h", title="Change from replacing a feature with its training median", color_discrete_sequence=COLORS), "match_player_sensitivity")
-            st.caption(player["explanation"])
-            with st.expander("Printable graphs for all 11 selected players"):
-                for path in report["charts"].values():
-                    st.image(str(ROOT / path), width="stretch")
+            st.divider()
+
+            st.subheader("🤖 GenAI Selection Insight")
+            st.caption("Generate an AI textual explanation powered by Hugging Face open-source LLMs.")
+
+            if st.button(f"Generate AI Explanation for {player['player']}", type="secondary"):
+                with st.spinner("Analyzing player metrics and feature drivers with Hugging Face LLM..."):
+                    explanation_text = generate_player_text_explanation(
+                        player_data=player,
+                        match_context=report.get("match", {})
+                    )
+                    st.info(explanation_text)
+            with st.expander("Inspect model feature sensitivities"):
+                if player.get("sensitivities"):
+                    st.dataframe(pd.DataFrame(player["sensitivities"]), hide_index=True)
+                else:
+                    st.write("No feature sensitivities available for this player.")
         else:
-            st.info("No predicted XI is available, so there are no selected-player explanations.")
+            st.info("No player evidence available for this match.")
     with diagnostics:
         candidates = pd.DataFrame(report["player_predictions"])
         score_cards(candidates, 20, "Match ")
