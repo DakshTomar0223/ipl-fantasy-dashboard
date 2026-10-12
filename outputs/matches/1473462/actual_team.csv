@@ -1,0 +1,12 @@
+player_id,player,team,role,role_source,predicted_points,total_fantasy_points,batting_fantasy_points,bowling_fantasy_points,fielding_fantasy_points,data_quality_notes
+9d430b40,SP Narine,Kolkata Knight Riders,AR,2025 profile candidate,52.5102187163858,139,60,79,0,
+5b7ab5a9,CV Varun,Kolkata Knight Riders,BOWL,2025 profile candidate,37.600853282768426,58,0,50,8,
+77b1aa15,Harshit Rana,Kolkata Knight Riders,BOWL,2025 profile candidate,42.62026342451875,50,0,50,0,
+bb351c23,MM Ali,Kolkata Knight Riders,AR,2025 profile candidate,45.291242676534075,45,0,37,8,
+7c3b3b78,VG Arora,Kolkata Knight Riders,BOWL,2025 profile candidate,35.85089379600421,41,0,25,16,
+a4e37e47,S Dube,Chennai Super Kings,AR,2025 profile candidate,36.252982766239505,38,38,0,0,
+372455c4,Q de Kock,Kolkata Knight Riders,WK,2025 profile candidate,42.60922541340296,37,29,0,8,
+0994d0ae,V Shankar,Chennai Super Kings,AR,2025 profile candidate,36.233333333333334,33,33,0,0,
+29e95537,AM Rahane,Kolkata Knight Riders,BAT,2025 profile candidate,43.141698113207546,31,23,0,8,
+fcc21ace,A Kamboj,Chennai Super Kings,AR,2025 profile candidate,34.49080803762291,28,3,25,0,
+efc04be7,Noor Ahmad,Chennai Super Kings,BOWL,2025 profile candidate,38.19645494830133,26,1,25,0,
